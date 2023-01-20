@@ -2,28 +2,59 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     margin: 2em;
+    font-family: EuclidFlex;
+  }
+
+  @font-face {
+    font-family: EuclidFlex;
+    src: url(/euclid-flex-cufonfonts/EuclidCircularARegular.ttf);
+  }
+
+  @font-face {
+    font-family: Voga;
+    src: url(/CDType_Voga-font-demo_031216/CDType\ -\ Voga\ Medium.otf);
+  }
+
+  @font-face {
+    font-family: Felix titling;
+    src: url(/Felix\ Titling.ttf);
   }
   
+  h1
+  {
+    font-family: Voga;
+  }
   /* HEADINGS */
-  h1, h2, h3, h4, h5, h6 {
+  h2, h3, h4, h5 {
     font-weight: 600;
+    
   }
   
   h1 {
-    font-size: 32px;
+    font-size: 48px;
+    font-family: Voga;
+    color:#8155BA;
   }
   
   h2 {
     font-size: 28px;
+    font-family: Felix titling;
   }
   
   h3 {
     font-size: 24px;
+    font-family: Felix titling;
+  }
+
+  h4
+  {
+    font-size: 18px;
+    font-family: EuclidFlex;
   }
   
   /* BUTTONS */
   .btn {
-    background-color: #3498db;
+    background-color: #8870BD;
     color: #fff;
     padding: 12px 24px;
     border-radius: 4px;
@@ -32,18 +63,19 @@ body {
   }
   
   .btn:hover {
-    background-color: #2980b9;
+    background-color: #DB86B7;
+    font-weight: bolder;
   }
   
   /* LINKS */
   a {
-    color: #3498db;
+    color: #D1B1C2 ;
     text-decoration: none;
     transition: color 0.3s ease;
   }
   
   a:hover {
-    color: #2980b9;
+    color: #fff;
   }
   
   /* ICONS */
@@ -75,41 +107,62 @@ body {
 
 .color-palette__item_main .color-palette__color
 {
-    background-color: red;
+    background-color: #8155BA;
 }
 
 .color-palette__item_second .color-palette__color
 {
-    background-color: blue;
+    background-color: #DB86B7;
 }
 
 .color-palette__item_system_colors_1 .color-palette__color
 {
-    background-color: black;
+    background-color: #D1B1C2;
 }
 
 .color-palette__item_system_colors_2 .color-palette__color
 {
-    background-color: greenyellow;
+    background-color: #EFDCF9;
 }
 
 .color-palette__item_system_colors_3 .color-palette__color
 {
-    background-color: plum;
+    background-color: #333E42;
 }
 
 .color-palette__item_system_colors_4 .color-palette__color
 {
-    background-color: purple;
+    background-color: #C163FE;
 }
 
 .color-palette__item_system_colors_5 .color-palette__color
 {
-    background-color: rosybrown;
+    background-color: #8870BD;
 }
 .color-palette__item_system_colors_6 .color-palette__color
 {
-    background-color: pink;
+    background-color:#5F3659;
+}
+
+img
+{
+  width: 50px;
+  margin: -1.5em;
+}
+
+.FirstFont
+{
+  font-family: EuclidFlex;
+}
+
+.SecFont
+{
+  font-family: Voga;
+}
+
+.ThirdFont
+{
+  font-family: Felix titling;
 }
 
 
