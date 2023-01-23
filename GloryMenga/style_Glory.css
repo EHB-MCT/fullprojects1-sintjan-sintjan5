@@ -1,10 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+@font-face {
+    font-family: 'SIMPLIFICA';
+    src: url(/SIMPLIFICA/SIMPLIFICA/SIMPLIFICA\ Typeface.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
 }
 body{
-    
+    background-color: #E4E7EC;
 }
 nav{
-    background-color: blue;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.image{
+    width: 5%;
+}
+.image img{
+    width: 100%;
+}
+.zoek img{
+    filter: invert(19%) sepia(73%) saturate(1968%) hue-rotate(205deg) brightness(93%) contrast(85%);
 }
