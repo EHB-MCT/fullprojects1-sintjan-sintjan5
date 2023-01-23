@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@font-face {
+    font-family: 'SIMPLIFICA';
+    src: url(SIMPLIFICA/SIMPLIFICA/SIMPLIFICA\ Typeface.ttf);
+}
+
+*{
+    margin: 0;
+    padding:0;
+}
+.logo{
+    width: 100%;
+}
+.logo img{
+    filter: invert(20%) sepia(63%) saturate(1662%) hue-rotate(201deg) brightness(97%) contrast(94%);
+    width: 10%;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 85%;
+    padding: 40px 0px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 40px;
+}
+nav a {
+    font-family: 'SIMPLIFICA';
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 35px;
+    color: black;
+    text-decoration: none;
+}
+.button{
+    border-radius: 20px;
+    padding: 15px;
+    background-color: #1F4591;
+    color: white;
+    transition: 0.4s;
+}
+.button:hover{
+    color: #1F4591;
+    background-color: #fff;
+}
+body {
+    background-color: #E4E7EC;
+}
+.content{
+    margin: 0 auto;
+    width: 85%;
+}
+.content h1{
+    font-size: 50px;
+    padding-top: 25px;
+}
+.typografie h1{
+    padding-top: 25px;
+}
+h1{
+    font-family: 'SIMPLIFICA';
+    color: black;
+}
+h2{
+    font-family: 'Domine',sans-serif;
+    padding-top: 25px;
+    color: white;
+    font-size: 35px;
+}
+.kleuren{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.kleur{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-right: 80px;
+}
+.bottom{
+    background-color: #2d343f;
+    height: 100px;
+    width: 250px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+.txtKleur{
+    color: white;
+    font-family: 'inter',sans-serif;
+    font-size: 25px;
+    margin-left: 20px;
+}
+.txtKleur p{
+    font-family: 'Inter',sans-serif;
+    font-weight: bold;
+}
+
+.blauw{
+    display: flex;
+    align-items: flex-end;
+    background-color: #1F4591;
+    border-radius: 15px;
+    height: 300px;
+    width: 250px;
+}
+.zwart{
+    display: flex;
+    align-items: flex-end;
+    background-color: #000;
+    border-radius: 15px;
+    height: 300px;
+    width: 250px;
+}
+.wit{
+    display: flex;
+    align-items: flex-end;
+    background-color: #FFF;
+    border-radius: 15px;
+    height: 300px;
+    width: 250px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 80px;
+}
+.typografie{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.typografie p{
+    color: black;
+    font-family: 'Domine', serif;
+    padding-top: 20px;
+    font-size:  20px;
+    font-weight: bold;
+}
+.typografie h1{
+    padding-bottom: 30px;
+}
+.txt{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.txt h1{
+    padding-bottom: 0px;
+}
+.txt p{
+    font-family: 'SIMPLIFICA';
+    font-size: 30px;
+}
+.txt2{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.txt2 h1{
+    font-family: 'Inter',sans-serif;
+    padding-bottom: 0px;
+}
+.txt2 p{
+    font-family: 'Inter',sans-serif;
+}
+/* H & T 1*/
+.H,.H2,.H3,.H4,.H5,.H6{
+width: 35%;
+}
+.H,.H2,.H3,.H4,.H5,.H6,h1{
+    padding: 0;
+    font-size: 40px;
+}
+.H p{
+    padding-top: 10px;
+}
+.T, .T2,.T3,.T4,.T5,.T6{
+    width: 62%;
+}
+.T p{
+    font-size: 54px;
+}
+/* H & T 2*/
+.T2 p{
+    font-size: 38px;
+}
+/* H & T 3*/
+.T3 p{
+    font-size: 24px;
+}
+/* H & T 4*/
+.T4 p{
+    font-size: 22px;
+}
+/* H & T 5*/
+.T5 p{
+    font-size: 18px;
+}
+/* H & T 6*/
+.T6 p{
+    font-size: 16px;
+}
+/* Lettertype voor body*/
+.txt2 .T p{
+    font-size: 24px;
+}
+.txt2 .T2 p{
+    font-size: 18px;
+}
+.txt2 .T3 p{
+    font-size: 14px;
+}
+.txt2 h1{
+    padding-top: 0px;
+}
+.txt2 .T{
+    width: 40%;
+}
+.txt2 .T2{
+    width: 40%;
+}
+.txt2 .T3{
+    width: 40%;
+}
+.BtnH{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 20px 0px;
+    background-color: #1F4591;
+}
+.BtnH h2{
+    font-family: 'Domine',serif;
+    font-size:  36px;
+    padding-top: 0;
+}
+.einde{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0px;
+}
+.btn h1{
+    padding-bottom: 40px;
+}
+.btntxt{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter',sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+    border-radius: 50px;
+    padding: 40px 0px;
+    background-color: #1F4591;
+    transition: 0.4s;
+}
+.btntxt:hover{
+    color: #1F4591;
+    background-color: #FFF;
+}
+.icon h1{
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+}
+.icons img{
+    width: 100%;
+    filter:invert(64%) sepia(12%) saturate(533%) hue-rotate(178deg) brightness(91%) contrast(86%);
+}
+.icon img:hover{
+    filter: invert(100%) sepia(0%) saturate(7484%) hue-rotate(234deg) brightness(108%) contrast(102%);
+}
+.png{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5%;
+    border-radius: 20px;
+    margin-right: 100px;
+    padding: 5px;
+    transition: 0.4s;
+}
+.png img{
+    width: 100%;
+}
