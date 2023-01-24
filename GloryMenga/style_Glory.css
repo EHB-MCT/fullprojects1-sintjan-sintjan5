@@ -148,4 +148,5 @@ ul.dropdown li:hover::after{
 ul.dropdown li a:hover{
     color: #1F4591;
     font-weight: 600;
+    transition: 0.1s;
 }
