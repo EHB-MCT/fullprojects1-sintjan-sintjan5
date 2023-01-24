@@ -99,3 +99,7 @@ h2 {
 	left: 50%;
 	transform: translateX(-50%);
 }
+.historiek {
+	display: flex;
+	flex-direction: column;
+}
