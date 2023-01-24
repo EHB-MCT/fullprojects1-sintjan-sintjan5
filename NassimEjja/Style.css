@@ -1,4 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+
 @font-face {
 	font-family: "SIMPLIFICA";
 	src: url(/SIMPLIFICA/SIMPLIFICA/SIMPLIFICA\ Typeface.ttf0);
+}
+body {
+	background-color: #e4e7ec;
+}
+* {
+	font-family: "SIMPLIFICA";
+}
+p {
+	font-family: "Inter", sans-serif;
+	color: #1f4591;
+	margin-bottom: 150px;
+	width: 30%;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	text-decoration: underline;
+}
+
+.kolom {
+	display: flex;
 }
