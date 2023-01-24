@@ -94,18 +94,19 @@ input[type="submit"]
     content: '';
     width: 0%;
     height: 2px;
-    background: #000;
+    background: #1F4591;
     display: block;
     margin: auto;
     transition: 0.3s;
+}
+
+.menu ul li:hover::after{
+    width: 100%;
 }
 .dropdown{
     display: flex;
     flex-direction: column;
     margin-top: 25px;
-}
-.menu ul li:hover::after{
-    width: 100%;
 }
 .menu ul li{
     display: flex;
@@ -118,4 +119,33 @@ input[type="submit"]
 }
 .menu img{
     width: 15%;
+}
+
+/*DropdownList*/
+ul li ul.dropdown li{
+    display: block;
+}
+ul li ul.dropdown{
+    position: absolute;
+    display: none;
+    transition: 0.3s;
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+ul.dropdown li::after{
+    width: 0%;
+    height: 1px;
+    background: #1F4591;
+    display: none;
+    margin: auto;
+    transition: 0.3s;
+}
+
+ul.dropdown li:hover::after{
+    width: 100%;
+}
+ul.dropdown li a:hover{
+    color: #1F4591;
+    font-weight: 600;
 }
