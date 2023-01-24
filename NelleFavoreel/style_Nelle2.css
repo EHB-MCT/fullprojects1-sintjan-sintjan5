@@ -3,51 +3,9 @@
 	font-family: "SIMPLIFICA";
 	src: url(/SIMPLIFICA/SIMPLIFICA/SIMPLIFICA\ Typeface.ttf);
 }
-
-.locatie {
-	grid-column: 3/8;
-	grid-row: 3/4;
-}
-.locatieIcon {
-	grid-column: 2/5;
-	grid-row: 3/4;
-}
-.tel {
-	grid-column: 3/9;
-	grid-row: 4/5;
-	margin-top: 25px;
-}
-.telIcon {
-	grid-column: 2/3;
-	grid-row: 4/5;
-	margin-top: 20px;
-}
-
-.head h1 {
-	font-family: "SIMPLIFICA";
-	font-size: 60px;
-	font-weight: 100;
-}
-.head {
-	grid-row: 1/2;
-	grid-column: 2/3;
-	margin-top: 40px;
-}
-.mail {
-	grid-column: 3 / 9;
-	grid-row: 5/9;
-}
-.mail h3 {
-	margin-top: 25px;
-}
-.mailIcon {
-	grid-column: 2/3;
-	grid-row: 6/8;
-	margin-top: 15px;
-}
-.mapouter {
-	grid-column: 8/12;
-	grid-row: 2/10;
+* {
+	margin: 0;
+	padding: 0;
 }
 .grid {
 	display: grid;
@@ -56,14 +14,36 @@
 	font-family: "inter";
 	font-size: 15px;
 }
-* {
-	margin: 0;
-	padding: 0;
+.head {
+	grid-column: 2/7;
+	grid-row: 2/4;
+	margin-bottom: 70px;
+}
+.head h1 {
+	font-weight: 100;
+	font-size: 60px;
+	font-family: "SIMPLIFICA";
+}
+.een {
+	grid-column: 2/5;
+	grid-row: 4/10;
+}
+.twee {
+	grid-column: 5/9;
+	grid-row: 4/10;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.drie {
+	grid-column: 9/12;
+	grid-row: 4/10;
+	margin-left: 20px;
 }
 body {
 	background-color: #e4e7ec;
 }
 nav {
+	/* heey :D */
 	padding: 20px 0px;
 	margin: 0 auto;
 	width: 85%;
