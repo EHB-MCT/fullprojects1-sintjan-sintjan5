@@ -1,3 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+@font-face {
+	font-family: "SIMPLIFICA";
+	src: url(/SIMPLIFICA/SIMPLIFICA/SIMPLIFICA\ Typeface.ttf);
+}
+
 body {
 	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: repeat(10, 1fr);
+}
+.locatie {
+	grid-column: 3/4;
+}
+.tel {
+	grid-column: 3/4;
+	grid-row: ;
 }
