@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@700&family=Cabin:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@700&family=Inter&display=swap');
 
+@font-face {
+    font-family: 'SIMPLIFICA';
+    src: url(/SIMPLIFICA/SIMPLIFICA/SIMPLIFICA\ Typeface.ttf);
+}
 
 body{
     margin: 0;
@@ -64,13 +68,18 @@ nav ul li:hover::after{
     width: 100%;
 }
 
-h2{
-    font-size: 38px;
-    font-family: 'Cabin', sans-serif;
+h1{
+    font-size: 48px;
+    font-family: 'SIMPLIFICA';
     justify-items: center;
 }
-
-.menus .small-container{
+.main{
+    width: 90%;
+    height: 200px;
+    margin: 0 auto;
+    background-color: #E4E7EC;
+}
+.main .first-main{
     max-width: 1000px;
     margin: auto;
     padding-left: 25px;
@@ -78,19 +87,76 @@ h2{
 }
 .title{
     text-align: center;
-    margin: 0 auto 50px;
+    margin: 50 auto 50px;
     position: relative;
-    line-height: 60px;
+    line-height: 70px;
     color: #555;
 }
 .title::after{
     content: '';
     background: #1F4591;
-    width: 180px;
+    width: 160px;
     height: 5px;
-    border-radius: 5px;
+    border-radius: 10px;
     position: absolute;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
+}
+
+h2{
+    font-size: 22px;
+    font-weight: 300;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.inschrijvingen {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: red;
+}
+
+.inschrijvingen div {
+    width: 30%;
+}
+
+.inschrijvingen-class p,
+.inschrijvingen-class h4 {
+    width: 100%;
+}
+.foto-inschrijvingen{
+    padding-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: 700px;
+    width: 50%;
+    
+}
+.foto-inschrijvingen img{
+    width: 200%;
+    
+}
+
+.second-tekst{
+    padding-bottom: 150px;
+}
+
+.inschrijvingen2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: red;
+}
+
+.inschrijvingen2 div {
+    width: 30%;
+}
+
+.inschrijvingen-class2 p,
+.inschrijvingen-class2 h4 {
+    width: 100%;
 }
