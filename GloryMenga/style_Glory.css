@@ -168,11 +168,6 @@ ul.dropdown li a:hover{
 }
 
 /*footer*/
-footer{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
 .foot{
     display: flex;
     justify-content: flex-end;
