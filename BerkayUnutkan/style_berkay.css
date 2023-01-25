@@ -126,9 +126,12 @@ input[type="submit"]
 
 /*DropdownList*/
 ul.dropdown{
+  background-color: white;
+  border-radius: 15px;
   z-index: 10;
 }
 ul li ul.dropdown li{
+  padding: 10px;
   display: block;
 }
 ul li ul.dropdown{
@@ -153,7 +156,6 @@ ul.dropdown li:hover::after{
 ul.dropdown li a:hover{
   color: #1F4591;
   font-weight: 600;
-  transition: 0.1s;
 }
 /*Dropdownlist*/
 .svg{ 
@@ -165,7 +167,7 @@ ul.dropdown li a:hover{
 
 .main{
   width: 85%;
-  height: 200px;
+  height: 1700px;
   margin: 0 auto;
 }
 .main .first-main{
@@ -213,6 +215,11 @@ h3{
   color: #000;
   font-family: 'Inter', sans-serif;
 }
+
+.tekst{
+  font-family: 'Inter', sans-serif;
+}
+
 .inschrijvingen {
   display: flex;
   flex-wrap: wrap;
@@ -244,6 +251,7 @@ h3{
 
 .tekst2{
   padding-bottom: 150px;
+  font-family: 'Inter', sans-serif;
 }
 
 .tekst2 h3{
@@ -280,7 +288,7 @@ h3{
   justify-content: flex-end;
   background-color: #E4E7EC;
   margin: 0 auto;
-  width: 85%;
+  width: 0%;
   height: 250px;
 }
 .kader{
