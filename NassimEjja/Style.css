@@ -101,5 +101,24 @@ h2 {
 }
 .historiek {
 	display: flex;
-	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.historiek div {
+	width: 30%;
+}
+.historiek h3 {
+	font-family: "SIMPLIFICA";
+	font-size: 25px;
+}
+.historiek p {
+	font-family: "inter";
+}
+.oude div h2 {
+	margin: 0 auto;
+	padding-left: 50px;
 }
