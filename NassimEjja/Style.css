@@ -7,118 +7,209 @@
 	font-family: "SIMPLIFICA";
 	src: url(/SIMPLIFICA/SIMPLIFICA/SIMPLIFICA\ Typeface.ttf0);
 }
-body {
+* {
 	margin: 0;
-	font-family: "Inter", sans-serif;
+	padding: 0;
 }
-
-.wrapper {
-	width: 90%;
-	height: 200px;
+body {
+	display: flex;
+	flex-direction: column;
+	background-color: #e4e7ec;
+}
+/*nav*/
+.nav {
+	padding: 20px 0px;
 	margin: 0 auto;
-	background-color: #e4e7ec;
-}
-.header {
-	width: 100%;
-	height: 130px;
-	padding-top: 50px;
+	width: 85%;
 	display: flex;
+	align-items: center;
 	justify-content: space-between;
-	align-items: center;
-	background-color: #e4e7ec;
+	flex-direction: row;
 }
-.logo {
-	padding-left: 50px;
-}
-
-.logo img {
-	width: 100px;
-}
-.navbar {
+.image {
+	width: 190px;
 	display: flex;
 	align-items: center;
-	padding: 10px;
+	flex-direction: row;
 }
-nav {
-	flex: 1;
-	text-align: right;
+.txtI {
+	font-family: "SIMPLIFICA";
+	margin-left: 30px;
+	font-size: 20px;
 }
-nav ul {
-	display: inline-block;
-	list-style-type: none;
+.image img {
+	width: 100%;
 }
-nav ul li {
-	display: inline-block;
+.rechts {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+form {
+	display: flex;
+	align-items: center;
+}
+/*Searchbox*/
+input[type="text"] {
+	font-family: "SIMPLIFICA";
+	font-size: 20px;
+	background-color: white;
+	width: 50%;
+	height: 35px;
+	border: 1px solid #000;
+	outline: none;
+	padding: 0 20px;
+	border-radius: 15px 0 0 15px;
+}
+input[type="submit"] {
+	font-family: "SIMPLIFICA";
+	font-size: 18px;
+	border-radius: 0 15px 15px 0;
+	border: none;
+	outline: none;
+	width: 30%;
+	height: 37px;
+	cursor: pointer;
+	color: white;
+	background: #1f4591;
+}
+/*Searchbox*/
+
+.nav ul {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	flex-direction: row;
 	margin-right: 20px;
-	padding: 8px 12px;
 }
-nav ul li a {
+.nav a {
+	color: #000;
+	font-size: 22px;
+	font-family: "SIMPLIFICA";
 	text-decoration: none;
 }
-nav ul li::after {
+.nav li {
+	display: flex;
+	flex-direction: column;
+	margin-right: 30px;
+	list-style: none;
+}
+.menu ul li::after {
 	content: "";
 	width: 0%;
 	height: 2px;
 	background: #1f4591;
 	display: block;
 	margin: auto;
-	transition: 0.5s;
+	transition: 0.3s;
 }
-nav ul li:hover::after {
+
+.menu ul li:hover::after {
+	width: 100%;
+}
+.dropdown {
+	display: flex;
+	flex-direction: column;
+	margin-top: 25px;
+}
+.menu ul li {
+	display: flex;
+	flex-direction: column;
+}
+.menu {
+	display: flex;
+	flex-direction: row;
+	margin-right: 10px;
+}
+.menu img {
+	width: 15%;
+}
+
+/*DropdownList*/
+ul.dropdown {
+	z-index: 10;
+}
+ul li ul.dropdown li {
+	display: block;
+}
+ul li ul.dropdown {
+	position: absolute;
+	display: none;
+	transition: 0.3s;
+}
+ul li:hover ul.dropdown {
+	display: block;
+}
+ul.dropdown li::after {
+	width: 0%;
+	height: 1px;
+	background: #1f4591;
+	display: none;
+	margin: auto;
+	transition: 0.3s;
+}
+ul.dropdown li:hover::after {
+	width: 100%;
+}
+ul.dropdown li a:hover {
+	color: #1f4591;
+	font-weight: 600;
+	transition: 0.1s;
+}
+/*Dropdownlist*/
+.svg {
+	width: 4%;
+}
+.svg img {
 	width: 100%;
 }
 
-h2 {
-	font-size: 38px;
-	font-family: "Cabin", sans-serif;
-	justify-items: center;
-}
-
-.menus .small-container {
-	max-width: 1000px;
-	margin: auto;
-	padding-left: 25px;
-	padding-right: 25px;
-}
-.title {
-	text-align: center;
-	margin: 0 auto 50px;
-	position: relative;
-	line-height: 60px;
-	color: #555;
-	font-family: "SIMPLIFICA";
-}
-.title::after {
-	content: "";
-	background: #1f4591;
-	width: 180px;
-	height: 5px;
-	border-radius: 5px;
-	position: absolute;
-	bottom: 0;
-	left: 50%;
-	transform: translateX(-50%);
+.content {
+	display: flex;
+	flex-direction: column;
+	width: 85%;
+	margin: 0 auto;
 }
 .historiek {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	padding-top: 50px;
-	padding-left: 50px;
-	padding-right: 50px;
+	padding: 50px 0 px;
 }
 
 .historiek div {
 	width: 30%;
+	border-radius: 5px;
 }
 .historiek h3 {
 	font-family: "SIMPLIFICA";
 	font-size: 25px;
+	text-align: center;
+	background-color: #1f4591;
+	padding: 10px 0px;
+	border-radius: 15px;
+	color: #fff;
 }
 .historiek p {
 	font-family: "inter";
+	line-height: 22px;
+	padding: 25px 0px;
 }
-.oude div h2 {
-	margin: 0 auto;
-	padding-left: 50px;
+
+.title {
+	font-family: "SIMPLIFICA";
+	font-size: 25px;
+	text-align: center;
+	padding: 60px 0px;
+}
+
+h2 {
+	font-size: 22px;
+	font-weight: 1000px;
+	color: #000;
+	font-family: "inter";
+	padding-top: 10px;
+}
+.oude {
+	padding-bottom: 50px;
 }
