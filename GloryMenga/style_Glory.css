@@ -127,9 +127,11 @@ input[type="submit"]
 
 /*DropdownList*/
 ul.dropdown{
+    background-color: #1F4591;
     z-index: 10;
 }
 ul li ul.dropdown li{
+    padding: 10px;
     display: block;
 }
 ul li ul.dropdown{
@@ -152,8 +154,7 @@ ul.dropdown li:hover::after{
     width: 100%;
 }
 ul.dropdown li a:hover{
-    color: #1F4591;
-    font-weight: 600;
+    color: white;
     transition: 0.1s;
 }
 /*Dropdownlist*/
