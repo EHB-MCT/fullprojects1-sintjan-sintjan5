@@ -2,27 +2,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@700&family=Cabin:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@700&family=Inter&display=swap');
 
+@font-face {
+    font-family: 'SIMPLIFICA';
+    src: url(/SIMPLIFICA/SIMPLIFICA/SIMPLIFICA\ Typeface.ttf);
+}
 
 body{
     margin: 0;
     font-family: 'Inter', sans-serif;
+    background-color: #E4E7EC;
 }
 
 .wrapper{
-    width: 90%;
-    height: 200px;
+    width: 100%;
+    height: 150px;
     margin: 0 auto;
     background-color: #E4E7EC;
 }
-.header{
-    width: 100%;
-    height: 130px;
-    padding-top: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #E4E7EC;
-}
+
 .logo{
 padding-left: 50px;
 }
@@ -51,6 +48,8 @@ nav ul li {
 nav ul li a{
     text-decoration: none;
 }
+
+/*lijn onder de navbar*/
 nav ul li::after{
     content: '';
     width: 0%;
@@ -64,33 +63,178 @@ nav ul li:hover::after{
     width: 100%;
 }
 
-h2{
-    font-size: 38px;
-    font-family: 'Cabin', sans-serif;
-    justify-items: center;
+h1{
+    font-size: 48px;
+    font-family: 'SIMPLIFICA';
 }
-
-.menus .small-container{
+.main{
+    width: 80%;
+    height: 200px;
+    margin: 0 auto;
+    background-color: #E4E7EC;
+}
+.main .first-main{
     max-width: 1000px;
-    margin: auto;
-    padding-left: 25px;
     padding-right: 25px;
 }
 .title{
-    text-align: center;
-    margin: 0 auto 50px;
+    grid-row: 1/2;
+	grid-column: 2/3;
     position: relative;
-    line-height: 60px;
-    color: #555;
+    line-height: 70px;
+    color: #000;
 }
+/*
 .title::after{
     content: '';
     background: #1F4591;
-    width: 180px;
+    width: 160px;
     height: 5px;
-    border-radius: 5px;
+    border-radius: 10px;
     position: absolute;
     bottom: 0;
-    left: 50%;
+    left: 9%;
     transform: translateX(-50%);
 }
+*/
+h2{
+    font-size: 22px;
+    font-weight: 300;
+    color: #000;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+.inschrijvingen {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #E4E7EC;
+    padding-top: 50px;
+}
+
+.inschrijvingen div {
+    width: 30%;
+}
+
+.inschrijvingen-class p,
+.inschrijvingen-class h4 {
+    width: 100%;
+    
+}
+.foto-inschrijvingen{
+    padding-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: 600px;
+    width: 50%;
+    
+}
+.foto-inschrijvingen img{
+    width: 200%;
+    
+}
+
+.tekst2{
+    padding-bottom: 150px;
+}
+
+.inschrijvingen2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #E4E7EC;
+}
+
+.inschrijvingen2 div {
+    width: 30%;
+}
+
+.inschrijvingen-class2 p,
+.inschrijvingen-class2 h4 {
+    width: 100%;
+}
+
+footer {
+    background-color: #8ba1c4;
+    color: black;
+    bottom: 0;
+    width: 100%;
+    font-size: 16px;
+    padding-top: 10px;
+  }
+  footer * {
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+  }
+  .row {
+    padding: 1em 1em;
+  }
+  .row.primary {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    align-items: stretch;
+  }
+  .column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10 2em;
+    min-height: 15em;
+  }
+  footer h3 {
+    width: 100%;
+    text-align: left;
+    color: #000;
+    font-size: 1.4em;
+    white-space: nowrap;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+  li:not(:first-child) {
+    margin-top: 0.8em;
+  }
+  ul li a {
+    color: #000;
+    text-decoration: none;
+  }
+  ul li a:hover {
+    color: #c7940a;
+  }
+  .about p {
+    text-align: justify;
+    line-height: 2;
+    margin: 0;
+  }
+  input,
+  button {
+    font-size: 1em;
+    padding: 1em;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  button {
+    background-color: #c7940a;
+    color: #ffffff;
+  }
+  div.social {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2.4em;
+    flex-direction: row;
+    margin-top: 0.5em;
+  }
+  .social i {
+    color: #bac6d9;
+  }
+  

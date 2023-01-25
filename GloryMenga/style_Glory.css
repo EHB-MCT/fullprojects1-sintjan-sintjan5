@@ -10,9 +10,12 @@
     padding: 0;
 }
 body{
+    display: flex;
+    flex-direction: column;
     background-color: #E4E7EC;
 }
-nav{
+/*nav*/
+.nav{
     padding: 20px 0px;
     margin: 0 auto;
     width: 85%;
@@ -22,7 +25,7 @@ nav{
     flex-direction: row;
 }
 .image{
-    width: 14%;
+    width: 190px;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -40,6 +43,10 @@ nav{
     flex-direction: row;
     align-items: center;
 }
+form{
+    display: flex;
+    align-items: center;
+}
 input[type="text"]
 {
     font-family: 'SIMPLIFICA';
@@ -49,7 +56,7 @@ input[type="text"]
     height: 35px;
     border: 1px solid #000;
     outline: none;
-    padding: 0 15px;
+    padding: 0 20px;
     border-radius: 25px 0 0 25px;
 }
 input[type="submit"]
@@ -59,10 +66,87 @@ input[type="submit"]
     border-radius: 0 25px 25px 0;
     border: none;
     outline: none;
-    margin-left: -5px;
     width: 30%;
-    height: 35px;
+    height: 37px;
     cursor: pointer;
     color: white;
     background: #1F4591;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 20px;
+}
+.nav a{
+    color: #000;
+    font-size: 22px;
+    font-family: 'SIMPLIFICA';
+    text-decoration: none;
+}
+.nav li{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    list-style: none;
+}
+.menu ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #1F4591;
+    display: block;
+    margin: auto;
+    transition: 0.3s;
+}
+
+.menu ul li:hover::after{
+    width: 100%;
+}
+.dropdown{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+.menu ul li{
+    display: flex;
+    flex-direction: column;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+}
+.menu img{
+    width: 15%;
+}
+
+/*DropdownList*/
+ul li ul.dropdown li{
+    display: block;
+}
+ul li ul.dropdown{
+    position: absolute;
+    display: none;
+    transition: 0.3s;
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+ul.dropdown li::after{
+    width: 0%;
+    height: 1px;
+    background: #1F4591;
+    display: none;
+    margin: auto;
+    transition: 0.3s;
+}
+
+ul.dropdown li:hover::after{
+    width: 100%;
+}
+ul.dropdown li a:hover{
+    color: #1F4591;
+    font-weight: 600;
+    transition: 0.1s;
 }
