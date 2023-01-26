@@ -180,6 +180,71 @@ ul.dropdown li a:hover{
     width: 100%;
 }
 /*nav*/
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+.Opvoeding{
+    display: flex;
+    flex-direction: row;
+    padding: 80px 0px 170px 0px;
+    margin: 0 auto;
+    width: 85%;
+}
+.OP{
+    width: 60%;
+}
+.fotoOP{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+.fotoOP img{
+    width: 70%;
+
+}
+.OP h2{
+    font-family: 'SIMPLIFICA';
+    letter-spacing: 1px;
+    font-size: 35px;
+    margin-bottom: 60px;
+}
+.OP p{
+    font-family: 'Inter',sans-serif;
+    width: 80%;
+}
+.stappen{
+    width: 85%;
+    margin: 0 auto;
+}
+.stappen h1{
+    font-family: 'SIMPLIFICA';
+    display: flex;
+    justify-content: flex-start;
+    font-size: 24px;
+}
+.stap{
+    margin-top: 80px;
+}
+.stap h1{
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: none;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+.stap p{
+    font-family: 'Inter',sans-serif;
+    width: 70%;
+}
+.titel{
+    margin: 0 auto;
+    width: 85%;
+    font-size: 24px;
+    font-family: 'SIMPLIFICA';
+}
 /*footer*/
 .foot{
     display: flex;
