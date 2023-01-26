@@ -172,6 +172,7 @@ ul.dropdown li a:hover{
     margin: 0 auto;
     padding-top: 20px;
     
+    
 }
 
 .hoofdtitel{
@@ -217,13 +218,6 @@ ul.dropdown li a:hover{
     font-weight: bold;
   }
 
-.subtitel2{
-    padding-top: 80px;
-    font-family: 'Inter' , 'sans-serif';
-    text-decoration: underline;
-    text-decoration-color: #1F4591;
-    line-height: 15px;
-}
 .schoolbestuur2{
     display: flex;
     flex-wrap: nowrap;
@@ -256,67 +250,21 @@ ul.dropdown li a:hover{
     font-weight: bold;
   }
 
-.subtitel3{
-    padding-top: 80px;
-    font-family: 'Inter' , 'sans-serif';
-    text-decoration: underline;
-    text-decoration-color: #1F4591;
-    line-height: 15px;
-}
-.schoolbestuur3{
+  .transform-your-team {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-between;
-    padding-top: 20px;
-}
-.schoolbestuur3 h3{
-    padding-bottom: 10px;
-    font-family: 'Inter' , 'sans-serif';
-    font-weight: lighter;
-    
+    margin-bottom: 150px;
 }
 
-.schoolbestuur3 ul li{
-    list-style-type: none;
-    font-family: 'Inter' , 'sans-serif';
-   
-}
-
-.schoolbestuur3 div{
-    width: 40%;
-}
-.subtitel4{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    padding-top: 80px;
-    font-family: 'Inter' , 'sans-serif';
-    text-decoration: underline;
-    text-decoration-color: #1F4591;
-    line-height: 15px;
-}
-.schoolbestuur4{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    padding-top: 20px;
-}
-.schoolbestuur4 h3{
-    padding-bottom: 10px;
-    font-family: 'Inter' , 'sans-serif';
-    font-weight: lighter;
-    
-}
-.schoolbestuur4 ul li{
-    
-    list-style-type: none;
-    font-family: 'Inter' , 'sans-serif';
-   
-}
-.schoolbestuur4 div{
+.transform-your-team div {
     width: 40%;
 }
 
+.item-team p,
+.item-team h4 {
+    width: 100%;
+}
 
 
 /*footer*/
