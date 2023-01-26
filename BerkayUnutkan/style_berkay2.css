@@ -167,6 +167,21 @@ ul.dropdown li a:hover{
     width: 100%;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************************************************MAIN*****************************************************************************************/
 .container{
     width: 85%;
     margin: 0 auto;
@@ -183,10 +198,10 @@ ul.dropdown li a:hover{
 .subtitel{
     padding-top: 20px;
     font-family: 'Inter' , 'sans-serif';
-    text-decoration: underline;
-    text-decoration-color: #1F4591;
     line-height: 15px;
 }
+
+
 .schoolbestuur{
     display: flex;
     flex-wrap: nowrap;
@@ -211,8 +226,8 @@ ul.dropdown li a:hover{
 .schoolbestuurtekst {
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-between;
-    padding-top: 60px;
+    justify-content: space-around;
+    padding-top: 50px;
     font-size: 16px;
     font-family: 'Inter', 'sans-serif';
     font-weight: bold;
@@ -266,23 +281,27 @@ ul.dropdown li a:hover{
     width: 100%;
 }
 
-table {
+table .een {
     border-collapse: collapse;
-    width: 100%;
+    width: 5%;
     margin-top: 20px;
+    
   }
   
   th, td {
     text-align: left;
     padding: 10px;
     font-family: 'Inter', sans-serif;
+    
   }
   
-  tr:nth-child(even){background-color: #f2f2f2}
+  tr:nth-child(even){background-color: #f2f2f2;
+}
   
   th {
     background-color: #1F4591;
     color: white;
+
   }
 
 /*footer*/
