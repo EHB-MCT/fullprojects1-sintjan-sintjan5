@@ -302,6 +302,7 @@ table .een {
   
   th {
     background-color: #1F4591;
+    border-radius: 5px;
     color: white;
 
   }
