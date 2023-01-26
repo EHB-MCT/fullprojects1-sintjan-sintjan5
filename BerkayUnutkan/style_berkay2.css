@@ -16,6 +16,11 @@ body{
     height: 100%;
 }
 /*nav*/
+.top{
+    background-color: rgba(228, 231, 236, 0.8);
+    width: 100%;
+    position: fixed;
+}
 .nav{
     padding: 20px 0px;
     margin: 0 auto;
@@ -185,7 +190,7 @@ ul.dropdown li a:hover{
 .container{
     width: 85%;
     margin: 0 auto;
-    padding-top: 20px;
+    padding-top: 150px;
     
     
 }
