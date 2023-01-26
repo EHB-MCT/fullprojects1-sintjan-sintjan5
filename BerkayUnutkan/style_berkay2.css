@@ -196,7 +196,8 @@ ul.dropdown li a:hover{
 }
 
 .subtitel{
-    padding-top: 20px;
+    padding-top: 40px;
+    padding-bottom: 20px;
     font-family: 'Inter' , 'sans-serif';
     line-height: 15px;
 }
@@ -227,10 +228,9 @@ ul.dropdown li a:hover{
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
-    padding-top: 50px;
     font-size: 16px;
+    padding: 0px 0px;
     font-family: 'Inter', 'sans-serif';
-    font-weight: bold;
   }
 
 .schoolbestuur2{
@@ -287,6 +287,8 @@ table .een {
     margin-top: 20px;
     
   }
+
+  
   
   th, td {
     text-align: left;
@@ -303,6 +305,62 @@ table .een {
     color: white;
 
   }
+
+  .schoolbestuurtekst-ouderraad {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding-top: 0px;
+    padding-left: 80px;
+    font-size: 16px;
+    font-family: 'Inter', 'sans-serif';
+  }
+  .schoolbestuurtekst-schoolraad {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    font-size: 16px;
+    padding: 0px 0px 20px;
+    margin-right: 20px;
+    font-family: 'Inter', 'sans-serif';
+  }
+
+  .schoolbestuurtekst-vetrouw{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    font-size: 16px;
+    font-family: 'Inter', 'sans-serif';
+  }
+
+  .schoolbestuurtekst-vrijwilligers{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    font-size: 16px;
+    padding-bottom: 30px;
+    font-family: 'Inter', 'sans-serif';
+  }
+
+
+.sub{
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*footer*/
 .foot{
