@@ -230,50 +230,113 @@ h3{
   width: 30%;
 }
 
-.inschrijvingen-class p,
-.inschrijvingen-class h4 {
-  width: 100%;
-  
+.inschrijvingen-class{
+  background-color: rgba(31, 69, 145, 0.2);
+  opacity: 100%;
+  border-radius: 15px;
+  padding-bottom: 50px;
 }
-.foto-inschrijvingen{
-  padding-top: 50px;
-  display: block;
-  margin-left: auto;
-  margin-right: 600px;
-  width: 50%;
-  
+.inschrijvingen-class p{
+  width: 90%;
+  padding-top: 20px;
+  padding-left: 20px;
 }
-.foto-inschrijvingen img{
-  width: 200%;
+.inschrijvingen-class li{
+  width: 90%;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.inschrijvingen-class a{
+  color: #000;
+  padding: 14px 25px;
+  text-align: center;
+  
+  display: inline-block;
+}
+.inschrijvingen-class a:hover {
+  color: rgba(31, 69, 145, 0.9);
   
 }
 
-.tekst2{
+.inschrijvingen-class h4{
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.foto-inschrijvingen{
+  padding-left: 0px;
+}
+.foto-inschrijvingen img{
+  border-radius: 14px;
+  padding: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: 300px;
+  width: 100%;
+  
+  
+}
+
+.tekst2 div{
   padding-bottom: 150px;
   font-family: 'Inter', sans-serif;
+  
+
 }
 
 .tekst2 h3{
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 100px;
+  margin-bottom: 20px;
 }
 
 .inschrijvingen2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-color: #E4E7EC;
+  
 }
-
+h3.insch{
+  padding-top: 30px;
+  margin-bottom: 20px;
+}
 .inschrijvingen2 div {
   width: 30%;
 }
 
-.inschrijvingen-class2 p,
-.inschrijvingen-class2 h4 {
-  width: 100%;
+.inschrijvingen-class2{
+  background-color: rgba(31, 69, 145, 0.2);
+  opacity: 100%;
+  border-radius: 10px;
 }
 
+.inschrijvingen-class2 p{
+  width: 90%;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.inschrijvingen-class2 ol{
+  width: 90%;
+  padding-top: 20px;
+  padding-left: 40px;
+}
+.inschrijvingen-class2 a{
+  width: 90%;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.inschrijvingen-class2 h4{
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.inschrijvingen-class2 a{
+  color: #000;
+}
+.inschrijvingen-class2 a:hover {
+  color: rgba(31, 69, 145, 0.9);
+  
+}
 .foot{
   display: flex;
   justify-content: flex-end;

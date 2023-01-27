@@ -16,6 +16,11 @@ body{
     height: 100%;
 }
 /*nav*/
+.top{
+    background-color: rgba(228, 231, 236, 0.8);
+    width: 100%;
+    position: fixed;
+}
 .nav{
     padding: 20px 0px;
     margin: 0 auto;
@@ -167,67 +172,240 @@ ul.dropdown li a:hover{
     width: 100%;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************************************************MAIN*****************************************************************************************/
+
+/*container*/
 .container{
     width: 85%;
     margin: 0 auto;
-    padding-top: 20px;
+    padding-top: 40px;
+    
+    
 }
-
+.container2{
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 170px;
+}
+/*hoofdtitel*/
 .hoofdtitel{
     font-family: 'SIMPLIFICA';
-    font-size: 24px;
 }
-
+.hoofdtitel h1{
+    font-weight: 100;
+    font-size: 60px;
+}
+/*subtitel*/
 .subtitel{
-    padding-top: 20px;
+    padding-top: 40px;
+    padding-bottom: 20px;
     font-family: 'Inter' , 'sans-serif';
-    text-decoration: underline;
-    text-decoration-color: #1F4591;
     line-height: 15px;
 }
 
+.subtitel2{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-family: 'Inter' , 'sans-serif';
+    line-height: 15px;
+}
+
+.subtitel3{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-family: 'Inter' , 'sans-serif';
+    line-height: 15px;
+}
+/*schema*/
+th, td {
+    text-align: left;
+    padding: 10px;
+    font-family: 'Inter', sans-serif;
+    
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2;
+}
+  
+  th {
+    background-color: #1F4591;
+    border-radius: 5px;
+    color: white;
+
+  }
+
+/*1*/
+.schoolbestuur{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.schoolbestuur h3{
+    padding-bottom: 10px;
+    font-family: 'Inter' , 'sans-serif';
+    font-weight: lighter;
+}
+
+.schoolbestuur div{
+    width: 50%;
+}
+
+.schoolbestuurtekst {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    font-size: 16px;
+    padding: 40px 80px 20px;
+    font-family: 'Inter', 'sans-serif';
+  }
+
+  table .een {
+    border-collapse: collapse;
+    width: 5%;
+    margin-top: 20px;
+    
+  }
 
 
+/*2*/
+.schoolbestuur2{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.schoolbestuur2 h3{
+    padding-bottom: 10px;
+    font-family: 'Inter' , 'sans-serif';
+    font-weight: lighter;
+}
 
+.schoolbestuur2 ul li{
+    font-family: 'Inter' , 'sans-serif';
 
+}
+.schoolbestuur2 div{
+    width: 50%;
+    font-weight: lighter;
+}
 
+table.twee{
+    padding-right: 100px;
+}
 
+summary {
+    padding: .5em 1.3rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;  
+    transition: height 1s ease;
+  }
+  
+  summary::-webkit-details-marker {
+    display: none;
+  }
+  
+  summary:after{
+    content: "\002B";
+  }
+  
+  details[open] summary {
+      border-bottom: 1px solid #aaa;
+      margin-bottom: .5em;
+  }
+  
+  details[open] summary:after{
+    content: "\00D7";
+  }
+  
+  details[open] div{
+    padding: .5em 1em;
+  }
+.schoolbestuurtekst2 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    font-size: 16px;
+    font-family: 'Inter', 'sans-serif';
+    font-weight: bold;
+  }  
+  
+  /*ouderraad*/
+  .schoolbestuurtekst-ouderraad {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding-top: 0px;
+    padding-left: 80px;
+    font-size: 16px;
+    font-family: 'Inter', 'sans-serif';
+  }
+  /*schoolraad*/
+  .schoolbestuurtekst-schoolraad {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    font-size: 16px;
+    padding: 0px 0px 20px;
+    margin-right: 20px;
+    font-family: 'Inter', 'sans-serif';
+  }
+/*vertrouw*/
+  .schoolbestuurtekst-vetrouw{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    font-size: 16px;
+    font-family: 'Inter', 'sans-serif';
+  }
 
+  /*vrijwilligers*/
+  .schoolbestuurtekst-vrijwilligers{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    font-size: 16px;
+    padding-bottom: 30px;
+    font-family: 'Inter', 'sans-serif';
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  .schoolbestuurtekst-beroep{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    font-size: 16px;
+    padding-bottom: 30px;
+    font-family: 'Inter', 'sans-serif';
+  }
+  .schoolbestuurtekst-zorgteam{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    font-size: 16px;
+    padding-bottom: 30px;
+    font-family: 'Inter', 'sans-serif';
+  }
+.sub{
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 20px;
+}
 
 /*footer*/
-footer{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
 .foot{
     display: flex;
     justify-content: flex-end;
