@@ -1,10 +1,10 @@
+/*Important*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
 @font-face {
     font-family: 'SIMPLIFICA';
     src: url(/SIMPLIFICA/SIMPLIFICA/SIMPLIFICA\ Typeface.ttf);
 }
-
 *{
     margin: 0;
     padding: 0;
@@ -15,6 +15,8 @@ body{
     background-color: #E4E7EC;
     height: 100%;
 }
+/*Important*/
+
 /*nav*/
 .top{
     background-color: rgba(228, 231, 236, 0.8);
@@ -53,6 +55,7 @@ form{
     display: flex;
     align-items: center;
 }
+
 /*Searchbox*/
 input[type="text"]
 {
@@ -78,6 +81,11 @@ input[type="submit"]
     cursor: pointer;
     color: white;
     background: #1F4591;
+    transition: 0.3s;
+}
+input[type="submit"]:hover
+{
+    background: #102649;
 }
 /*Searchbox*/
 
@@ -103,7 +111,7 @@ input[type="submit"]
 .menu ul li::after{
     content: '';
     width: 0%;
-    height: 2px;
+    height: 1px;
     background: #1F4591;
     display: block;
     margin: auto;
@@ -171,202 +179,7 @@ ul.dropdown li a:hover{
 .svg img{
     width: 100%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*************************************************MAIN*****************************************************************************************/
-.container{
-    width: 85%;
-    margin: 0 auto;
-    padding-top: 150px;
-    
-    
-}
-
-.hoofdtitel{
-    font-family: 'SIMPLIFICA';
-    font-size: 24px;
-}
-
-.subtitel{
-    padding-top: 40px;
-    padding-bottom: 20px;
-    font-family: 'Inter' , 'sans-serif';
-    line-height: 15px;
-}
-
-
-.schoolbestuur{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    padding-top: 20px;
-}
-.schoolbestuur h3{
-    padding-bottom: 10px;
-    font-family: 'Inter' , 'sans-serif';
-    font-weight: lighter;
-}
-
-.schoolbestuur ul li{
-    list-style-type: circle;
-    font-family: 'Inter' , 'sans-serif';
-}
-
-.schoolbestuur div{
-    width: 60%;
-}
-
-.schoolbestuurtekst {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    font-size: 16px;
-    padding: 0px 0px;
-    font-family: 'Inter', 'sans-serif';
-  }
-
-.schoolbestuur2{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    padding-top: 20px;
-}
-.schoolbestuur2 h3{
-    padding-bottom: 10px;
-    font-family: 'Inter' , 'sans-serif';
-    font-weight: lighter;
-}
-
-
-.schoolbestuur2 ul li{
-    list-style-type: circle;
-    font-family: 'Inter' , 'sans-serif';
-
-}
-
-.schoolbestuur2 div{
-    width: 60%;
-}
-
-.schoolbestuurtekst2 {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    font-size: 16px;
-    font-family: 'Inter', 'sans-serif';
-    font-weight: bold;
-  }
-
-  .transform-your-team {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 150px;
-}
-
-.transform-your-team div {
-    width: 40%;
-}
-
-.item-team p,
-.item-team h4 {
-    width: 100%;
-}
-
-table .een {
-    border-collapse: collapse;
-    width: 5%;
-    margin-top: 20px;
-    
-  }
-
-  
-  
-  th, td {
-    text-align: left;
-    padding: 10px;
-    font-family: 'Inter', sans-serif;
-    
-  }
-  
-  tr:nth-child(even){background-color: #f2f2f2;
-}
-  
-  th {
-    background-color: #1F4591;
-    border-radius: 5px;
-    color: white;
-
-  }
-
-  .schoolbestuurtekst-ouderraad {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    padding-top: 0px;
-    padding-left: 80px;
-    font-size: 16px;
-    font-family: 'Inter', 'sans-serif';
-  }
-  .schoolbestuurtekst-schoolraad {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    font-size: 16px;
-    padding: 0px 0px 20px;
-    margin-right: 20px;
-    font-family: 'Inter', 'sans-serif';
-  }
-
-  .schoolbestuurtekst-vetrouw{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    font-size: 16px;
-    font-family: 'Inter', 'sans-serif';
-  }
-
-  .schoolbestuurtekst-vrijwilligers{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    font-size: 16px;
-    padding-bottom: 30px;
-    font-family: 'Inter', 'sans-serif';
-  }
-
-
-.sub{
-    font-family: 'Inter', sans-serif;
-    padding-bottom: 20px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*nav*/
 
 /*footer*/
 .foot{
@@ -393,7 +206,7 @@ table .een {
     flex-direction: column;
     opacity: 80%;
     border-radius: 15px;
-    margin-top: 100px;
+    margin-top: 90px;
     width: 280px;
     height: 290px;
 }
@@ -432,7 +245,12 @@ table .een {
 }
 .txtBlauw a{
     color: #000;
-   text-decoration: none;
+    text-decoration: none;
+}
+.txtBlauw a:hover{
+    color: #1F4591;
+    font-weight: 600;
+    text-decoration: none;
 }
 .icons{
     display: flex;
@@ -453,3 +271,4 @@ table .een {
     line-height: 20px;
     width: 60%;
 }
+/*Footer*/
