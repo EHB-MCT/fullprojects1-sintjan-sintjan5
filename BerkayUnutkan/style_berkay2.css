@@ -199,14 +199,16 @@ ul.dropdown li a:hover{
 .container2{
     width: 85%;
     margin: 0 auto;
-    padding-top: 120px;
+    padding-top: 170px;
 }
 /*hoofdtitel*/
 .hoofdtitel{
     font-family: 'SIMPLIFICA';
-    font-size: 24px;
 }
-
+.hoofdtitel h1{
+    font-weight: 100;
+    font-size: 60px;
+}
 /*subtitel*/
 .subtitel{
     padding-top: 40px;
@@ -306,7 +308,34 @@ table.twee{
     padding-right: 100px;
 }
 
-
+summary {
+    padding: .5em 1.3rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;  
+    transition: height 1s ease;
+  }
+  
+  summary::-webkit-details-marker {
+    display: none;
+  }
+  
+  summary:after{
+    content: "\002B";
+  }
+  
+  details[open] summary {
+      border-bottom: 1px solid #aaa;
+      margin-bottom: .5em;
+  }
+  
+  details[open] summary:after{
+    content: "\00D7";
+  }
+  
+  details[open] div{
+    padding: .5em 1em;
+  }
 .schoolbestuurtekst2 {
     display: flex;
     flex-wrap: nowrap;
