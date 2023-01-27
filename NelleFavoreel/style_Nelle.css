@@ -308,3 +308,8 @@ ul.dropdown li a:hover {
 	line-height: 20px;
 	width: 60%;
 }
+.top {
+	background-color: rgba(228, 231, 236, 0.8);
+	width: 100%;
+	position: fixed;
+}
