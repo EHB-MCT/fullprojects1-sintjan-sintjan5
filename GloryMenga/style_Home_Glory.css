@@ -279,6 +279,73 @@ ul.dropdown li a:hover{
     display: flex;
     justify-content: center;
 }
+.poster img{
+    width: 50%;
+}
+.jan{
+    width: 50%;
+}
+.jan h1{
+    font-size: 60px;
+    font-weight: 100;
+    margin-bottom: 40px;
+    font-family: 'SIMPLIFICA';
+}
+.jan p{
+    width: 70%;
+    font-family: 'Inter',sans-serif;
+    margin-bottom: 15px;
+}
+.intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 100px auto;
+    width: 85%;
+}
+.main{
+    width: 50%;
+}
+.main img{
+    width: 100%;
+}
+.einde{
+    margin: 0 auto;
+    width: 85%;
+}
+.block{
+    background-color: rgba(31, 69, 145, 0.7);
+    border-radius: 15px;
+    width: 350px;
+    height: 340px;
+}
+.block p{
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+    padding-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 160px;
+    font-family: 'SIMPLIFICA';
+}
+
+
+.menu ul li:hover::after{
+    width: 100%;
+}
+.block a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Inter',sans-serif;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+.block a:hover{
+    color:#1F4591;
+    background: #E4E7EC;
+    padding: 10px;
+    border-radius: 15px;
+}
 /*footer*/
 .foot{
     display: flex;
@@ -315,6 +382,7 @@ ul.dropdown li a:hover{
     margin-left: 13px;
     margin-bottom: 18px;
     font-weight: 400;
+    letter-spacing: 1px;
     font-size: 28px;
 }
 .kader p{
@@ -342,6 +410,7 @@ ul.dropdown li a:hover{
 }
 .txtBlauw h1{
     font-family: 'SIMPLIFICA';
+    letter-spacing: 1px;
     font-size: 28px;
 }
 .txtBlauw p{

@@ -3,10 +3,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@700&family=Cabin:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@700&family=Inter&display=swap");
 
-@font-face {
-	font-family: "SIMPLIFICA";
-	src: url(/SIMPLIFICA/SIMPLIFICA/SIMPLIFICA\ Typeface.ttf0);
-}
 * {
 	margin: 0;
 	padding: 0;
@@ -15,8 +11,16 @@ body {
 	display: flex;
 	flex-direction: column;
 	background-color: #e4e7ec;
+	height: 100%;
 }
+/*Important*/
+
 /*nav*/
+.top {
+	background-color: rgba(228, 231, 236, 0.8);
+	width: 100%;
+	position: fixed;
+}
 .nav {
 	padding: 20px 0px;
 	margin: 0 auto;
@@ -49,6 +53,7 @@ form {
 	display: flex;
 	align-items: center;
 }
+
 /*Searchbox*/
 input[type="text"] {
 	font-family: "SIMPLIFICA";
@@ -65,6 +70,7 @@ input[type="submit"] {
 	font-family: "SIMPLIFICA";
 	font-size: 18px;
 	border-radius: 0 15px 15px 0;
+	letter-spacing: 1px;
 	border: none;
 	outline: none;
 	width: 30%;
@@ -72,6 +78,10 @@ input[type="submit"] {
 	cursor: pointer;
 	color: white;
 	background: #1f4591;
+	transition: 0.3s;
+}
+input[type="submit"]:hover {
+	background: #102649;
 }
 /*Searchbox*/
 
@@ -97,7 +107,7 @@ input[type="submit"] {
 .menu ul li::after {
 	content: "";
 	width: 0%;
-	height: 2px;
+	height: 1px;
 	background: #1f4591;
 	display: block;
 	margin: auto;
@@ -127,9 +137,12 @@ input[type="submit"] {
 
 /*DropdownList*/
 ul.dropdown {
+	background-color: white;
+	border-radius: 15px;
 	z-index: 10;
 }
 ul li ul.dropdown li {
+	padding: 10px;
 	display: block;
 }
 ul li ul.dropdown {
@@ -154,7 +167,6 @@ ul.dropdown li:hover::after {
 ul.dropdown li a:hover {
 	color: #1f4591;
 	font-weight: 600;
-	transition: 0.1s;
 }
 /*Dropdownlist*/
 .svg {
@@ -163,6 +175,7 @@ ul.dropdown li a:hover {
 .svg img {
 	width: 100%;
 }
+/*nav*/
 
 .content {
 	display: flex;
@@ -182,13 +195,14 @@ ul.dropdown li a:hover {
 	border-radius: 5px;
 }
 .historiek h3 {
-	font-family: "SIMPLIFICA";
-	font-size: 25px;
+	font-family: "inter";
+	font-size: 20px;
 	text-align: center;
 	background-color: #1f4591;
 	padding: 10px 0px;
 	border-radius: 15px;
 	color: #fff;
+	font-weight: 100;
 }
 .historiek p {
 	font-family: "inter";
@@ -199,15 +213,20 @@ ul.dropdown li a:hover {
 .title {
 	font-family: "SIMPLIFICA";
 	font-size: 25px;
-	text-align: center;
+	text-align: left;
 	padding: 60px 0px;
+}
+.title h1 {
+	font-weight: 100;
+	font-size: 60px;
+	margin-top: 50px;
 }
 
 h2 {
-	font-size: 22px;
-	font-weight: 1000px;
+	font-size: 35px;
+	font-weight: 100;
 	color: #000;
-	font-family: "inter";
+	font-family: "simplifica";
 	padding-top: 10px;
 }
 .oude {
