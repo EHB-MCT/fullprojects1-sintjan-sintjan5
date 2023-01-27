@@ -280,7 +280,7 @@ ul.dropdown li a:hover{
     justify-content: center;
 }
 .poster img{
-    width: 100%;
+    width: 50%;
 }
 .jan{
     width: 50%;
@@ -314,7 +314,7 @@ ul.dropdown li a:hover{
     width: 85%;
 }
 .block{
-    background-color: rgba(31, 69, 145, 0.9);
+    background-color: rgba(31, 69, 145, 0.7);
     border-radius: 15px;
     width: 350px;
     height: 340px;
