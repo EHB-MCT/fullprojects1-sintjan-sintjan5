@@ -213,21 +213,24 @@ ul.dropdown li a:hover{
 .subtitel{
     padding-top: 40px;
     padding-bottom: 20px;
-    font-family: 'Inter' , 'sans-serif';
+    font-size: 18px;
+    font-family: 'SIMPLIFICA';
     line-height: 15px;
 }
 
 .subtitel2{
     padding-top: 40px;
+    font-size: 18px;
     padding-bottom: 20px;
-    font-family: 'Inter' , 'sans-serif';
+    font-family: 'SIMPLIFICA';
     line-height: 15px;
 }
 
 .subtitel3{
     padding-top: 40px;
+    font-size: 18px;
     padding-bottom: 20px;
-    font-family: 'Inter' , 'sans-serif';
+    font-family: 'SIMPLIFICA';
     line-height: 15px;
 }
 /*schema*/
