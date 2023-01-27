@@ -74,6 +74,7 @@ input[type="submit"]
     font-family: 'SIMPLIFICA';
     font-size: 18px;
     border-radius: 0 15px 15px 0;
+    letter-spacing: 1px;
     border: none;
     outline: none;
     width: 30%;
@@ -295,7 +296,6 @@ ul.dropdown li a:hover{
     height: 250px;
 }
 .kader{
-    font-family: 'Inter',sans-serif;
     position: absolute;
     background-color: rgba(31, 69, 145, 0.9);
     color: white;
@@ -308,10 +308,17 @@ ul.dropdown li a:hover{
     height: 290px;
 }
 .kader h1{
+    font-family: 'SIMPLIFICA';
+    display: flex;
+    justify-content: center;
     margin-top: 25px;
     margin-left: 13px;
     margin-bottom: 18px;
-    font-size: 20px;
+    font-weight: 400;
+    font-size: 28px;
+}
+.kader p{
+    font-family: 'Inter',sans-serif;
 }
 .blauw{
     display: flex;
@@ -334,7 +341,8 @@ ul.dropdown li a:hover{
     margin-right: 130px;
 }
 .txtBlauw h1{
-    font-size: 20px;
+    font-family: 'SIMPLIFICA';
+    font-size: 28px;
 }
 .txtBlauw p{
     font-size: 16px;
