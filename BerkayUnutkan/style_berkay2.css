@@ -16,6 +16,11 @@ body{
     height: 100%;
 }
 /*nav*/
+.top{
+    background-color: rgba(228, 231, 236, 0.8);
+    width: 100%;
+    position: fixed;
+}
 .nav{
     padding: 20px 0px;
     margin: 0 auto;
@@ -185,7 +190,7 @@ ul.dropdown li a:hover{
 .container{
     width: 85%;
     margin: 0 auto;
-    padding-top: 20px;
+    padding-top: 150px;
     
     
 }
@@ -196,7 +201,8 @@ ul.dropdown li a:hover{
 }
 
 .subtitel{
-    padding-top: 20px;
+    padding-top: 40px;
+    padding-bottom: 20px;
     font-family: 'Inter' , 'sans-serif';
     line-height: 15px;
 }
@@ -227,10 +233,9 @@ ul.dropdown li a:hover{
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
-    padding-top: 50px;
     font-size: 16px;
+    padding: 0px 0px;
     font-family: 'Inter', 'sans-serif';
-    font-weight: bold;
   }
 
 .schoolbestuur2{
@@ -287,6 +292,8 @@ table .een {
     margin-top: 20px;
     
   }
+
+  
   
   th, td {
     text-align: left;
@@ -300,9 +307,66 @@ table .een {
   
   th {
     background-color: #1F4591;
+    border-radius: 5px;
     color: white;
 
   }
+
+  .schoolbestuurtekst-ouderraad {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding-top: 0px;
+    padding-left: 80px;
+    font-size: 16px;
+    font-family: 'Inter', 'sans-serif';
+  }
+  .schoolbestuurtekst-schoolraad {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    font-size: 16px;
+    padding: 0px 0px 20px;
+    margin-right: 20px;
+    font-family: 'Inter', 'sans-serif';
+  }
+
+  .schoolbestuurtekst-vetrouw{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    font-size: 16px;
+    font-family: 'Inter', 'sans-serif';
+  }
+
+  .schoolbestuurtekst-vrijwilligers{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    font-size: 16px;
+    padding-bottom: 30px;
+    font-family: 'Inter', 'sans-serif';
+  }
+
+
+.sub{
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*footer*/
 .foot{
