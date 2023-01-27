@@ -1,0 +1,23 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    width: 30%; /* Resize the first column to 30% of the table width */
+    margin-right: 5%; /* Add a right margin of 5% */
+  }
+  
+  td {
+    width: 70%; /* Resize the second column to 70% of the table width */
+    margin-left: 5%; /* Add a left margin of 5% */
+  }
+  
+  
