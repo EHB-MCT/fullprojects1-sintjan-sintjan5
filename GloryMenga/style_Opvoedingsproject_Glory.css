@@ -207,8 +207,9 @@ ul.dropdown li a:hover{
 .OP h2{
     font-family: 'SIMPLIFICA';
     letter-spacing: 1px;
-    font-size: 35px;
+    font-size: 40px;
     margin-bottom: 60px;
+    font-weight: 100;
 }
 .OP p{
     font-family: 'Inter',sans-serif;
@@ -233,7 +234,8 @@ ul.dropdown li a:hover{
     text-decoration: none;
     margin-bottom: 20px;
     letter-spacing: 1px;
-    font-size: 30px;
+    font-weight: 100;
+    font-size: 40px;
 }
 .stap p{
     font-family: 'Inter',sans-serif;
@@ -244,6 +246,10 @@ ul.dropdown li a:hover{
     width: 85%;
     font-size: 24px;
     font-family: 'SIMPLIFICA';
+}
+.titel h1{
+    font-weight: 100;
+    font-size: 60px;
 }
 /*footer*/
 .foot{
