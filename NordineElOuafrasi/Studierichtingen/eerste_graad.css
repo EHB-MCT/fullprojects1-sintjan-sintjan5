@@ -1,0 +1,33 @@
+/* <!--Zie CSS-->*/
+*{
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #E4E7EC;
+    height: 80%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+  }
+  
+  th, td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #dddddd;
+  }
+
+  ul{
+
+    margin-left: 0px;
+
+  }
