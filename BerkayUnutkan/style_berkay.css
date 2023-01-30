@@ -232,7 +232,7 @@ h1.title{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-top: 50px; 
+  padding-top: 100px; 
 }
 .inschrijvingen-class{
   background-color: rgba(31, 69, 145, 0.2);
