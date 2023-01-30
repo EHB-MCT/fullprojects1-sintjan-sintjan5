@@ -1,0 +1,76 @@
+/*Important*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+@font-face {
+    font-family: 'SIMPLIFICA';
+    src: url(/SIMPLIFICA/SIMPLIFICA/SIMPLIFICA\ Typeface.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: 'SIMPLIFICA';
+    
+
+}
+
+header
+{
+    background-color: rgba(31, 69, 145, 0.9);
+    padding: 10%;
+}
+
+
+
+h1
+{
+    font-size: 50px;
+    color: #FFF;
+    margin: -1.5em;
+    text-align: justify;
+    
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+    
+}
+
+.box
+{
+    background-color: rgba(31, 69, 145, 0.);
+    margin: 0.5em;
+    padding: 0.5em;
+    border-radius: 5%;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.box-title a
+{
+    color: rgba(31, 69, 145, 0.9);
+    text-decoration: none;
+}
+
+.box-title a:hover
+{
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+img:hover
+{
+    width: 102%;
+    transition: 0.5s;
+    border: 0.3em solid rgba(31, 69, 145, 0.9);
+}
