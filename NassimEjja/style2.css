@@ -165,7 +165,6 @@ ul.dropdown li a:hover {
 	width: 100%;
 }
 .content {
-	
 	width: 85%;
 	margin: 0 auto;
 }
@@ -180,9 +179,14 @@ ul.dropdown li a:hover {
 .Links {
 	font-family: "inter";
 	font-size: 25px;
-    padding: 10px 0px;
+	padding: 10px 0px;
 	border-radius: 15px;
 	color: #fff;
 	font-weight: 100;
-    
+}
+.Links li {
+	list-style-type: none;
+}
+.Links a {
+	text-decoration: none;
 }
