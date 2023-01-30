@@ -5,6 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="style_Home_Glory.css" />
+		<script src="Search.js"></script>
 		<title>Sint-Jan Berchmanscollege Brussel</title>
 	</head>
 	<body>
@@ -21,7 +22,6 @@
 				<div class="rechts"> 
                     <div class="menu">
                        <ul>
-                           <li><a href="/GloryMenga/home.html">Home</a></li>
                            <li><a href="/GloryMenga/home.html">Over ons</a>
                                <ul class="dropdown">
                                    <li><a href="/GloryMenga/Opvoedings.html">Opvoedingsproject</a></li>
@@ -50,9 +50,9 @@
                        </ul>
                    </div>
 					<div class="box">
-						<form>
-							<input type="text" name="" placeholder="Typ hier..." />
-							<input type="submit" name="" value="Zoeken" />
+						<form id="search-form">
+							<input type="text" id="search-input" placeholder="Typ hier..."/>
+							<input type="submit"  value="Zoeken" />
 						</form>
 					</div>
 				</div>
@@ -76,19 +76,29 @@
 						<p>Het Sint-Jan Berchmanscollege is een katholiek Vlaams jezuïetencollege in de Ursulinenstraat te Brussel, vlak bij de Kapellekerk en het station Brussel-Kapellekerk. Het college is genoemd naar de Vlaamse heilige Jan Berchmans en maakt deel uit van de Scholengemeenschap voor Katholiek Secundair Onderwijs Sint-Gorik.</p>
 						<p>De leuze van de school is Libenter ("graag!").</p>
 					</div>
+					<div class="vertline">
+
+					</div>
 					<div class="main">
-						<img src="/images/school main.jpg" alt="schoolh main">
+						<img src="/images/school main.jpg" alt="school main">
 					</div>
 				</div>
 			</div>
-			<div class="poster">
-				<img src="/images/Opendeurdag_2023.png" alt="" />
+			<div class="pattern">
+				<div class="poster">
+					<img src="/images/Opendeurdag_2023.png" alt="" />
+				</div>
 			</div>
-            <div class="einde">
-                <div class="block">
-                    <p>Druk hier om je kind op onze school in te schrijven</p>
-                    <a href="#">Inschrijven</a>
-                </div>
+			<div class="last">
+				<div class="einde">
+					<a href="/BerkayUnutkan/inschrijvingen.html" class="inschrijven">
+						Inschrijvingen
+					</a>
+					<a href="/NordineElOuafrasi/Studierichtingen/studieaanbod.html" class="studierichtingen">
+						Studierichtingen
+					</a>
+				</div>
+			</div>
 		</div>
 		<!--Footer-->
 		<footer>
