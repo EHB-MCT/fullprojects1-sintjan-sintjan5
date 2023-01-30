@@ -254,10 +254,9 @@ ul.dropdown li a:hover {
 .grid {
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: repeat(5, 1fr);
+	grid-template-rows: repeat(5, auto);
 	font-family: "inter";
 	font-size: 15px;
-	margin-bottom: 80px;
 }
 .schoolvisie {
 	grid-column: 2/7;
@@ -354,7 +353,7 @@ ul.dropdown li a:hover {
 	margin-top: 31%;
 }
 .totSlot {
-	grid-column: 2/7;
+	grid-column: 2/6;
 	grid-row: 5/6;
 	margin-right: 40px;
 }
@@ -378,5 +377,4 @@ p {
 .grid {
 	background-image: url(/images/p);
 	background-size: auto;
-	padding: 100px 0px;
 }
