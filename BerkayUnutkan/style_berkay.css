@@ -49,7 +49,7 @@ body{
 .image img{
     width: 100%;
 }
-.rechts{
+.right{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -203,7 +203,7 @@ h1.title{
   margin-top: 120px;
 
 }
-.insch{
+.registration-title{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -236,13 +236,13 @@ h1.title{
   margin: 0 auto;
   
 }
-.inschrijvingen {
+.registration {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding-top: 100px; 
 }
-.inschrijvingen-class{
+.registration-class{
   background-color: rgba(31, 69, 145, 0.2);
   opacity: 100%;
   border-radius: 15px;
@@ -251,7 +251,7 @@ h1.title{
   text-align: center;
   
 }
-.inschrijvingen-class p{
+.registration-class p{
   width: 80%;
   padding-top: 20px;
   text-align: left;
@@ -262,7 +262,7 @@ h1.title{
   
 }
 
-.inschrijvingen-class a{
+.registration-class a{
   color: #000;
   padding: 10px 20px 20px 20px;
   text-decoration: none;
@@ -280,14 +280,14 @@ h1.title{
   border-radius: 10px;
 
 }
-.inschrijvingen-class a:hover {
+.registration-class a:hover {
   color: #000;
 
 }
-.inschrijvingen div {
+.registration div {
   width: 31%;
 }
-.inschrijvingen-class h4{
+.registration-class h4{
   padding-top: 10px;
   display: flex;
   justify-content: space-around;
@@ -306,7 +306,7 @@ h3{
   margin: 0 auto;
   font-family: 'Inter', sans-serif;
 }
-.insch2{
+.registration-title-2{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -323,52 +323,52 @@ h3{
   font-family: 'SIMPLIFICA';
 }
 
-.tekst2 {
+.second-layer {
   padding: 100px 0px 100px 0px;
 }
 
-.inschrijvingen2 {
+.registration-2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   
 }
 
-.inschrijvingen2 div {
+.registration-2 div {
   width: 30%;
 }
 
-.inschrijvingen-class2{
+.registration-class-2{
   background-color: rgba(31, 69, 145, 0.2);
   opacity: 100%;
   border-radius: 10px;
   padding-bottom: 40px;
 }
 
-.inschrijvingen-class2 p{
+.registration-class-2 p{
   width: 90%;
   padding-top: 20px;
   padding-left: 20px;
 }
-.inschrijvingen-class2 ol{
+.registration-class-2 ol{
   width: 90%;
   padding-top: 20px;
   padding-left: 40px;
 }
-.inschrijvingen-class2 a{
+.registration-class-2 a{
   width: 90%;
   padding-top: 20px;
   padding-left: 20px;
 }
-.inschrijvingen-class2 h4{
+.registration-class-2 h4{
   padding-top: 10px;
   display: flex;
   justify-content: space-around;
 }
-.inschrijvingen-class2 a{
+.registration-class-2 a{
   color: #000;
 }
-.inschrijvingen-class2 a:hover {
+.registration-class-2 a:hover {
   color: rgba(31, 69, 145, 0.9);
   
 }
@@ -380,7 +380,7 @@ h3{
   margin: 0 auto;
   width: 85%;
 }
-.wit{
+.white{
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
@@ -389,7 +389,7 @@ h3{
   width: 85%;
   height: 250px;
 }
-.kader{
+.frame{
   font-family: 'Inter',sans-serif;
   position: absolute;
   background-color: rgba(31, 69, 145, 0.9);
@@ -402,13 +402,13 @@ h3{
   width: 280px;
   height: 290px;
 }
-.kader h1{
+.frame h1{
   margin-top: 25px;
   margin-left: 13px;
   margin-bottom: 18px;
   font-size: 20px;
 }
-.blauw{
+.blue{
   display: flex;
   flex-direction: row;
   background-color: rgba(31, 69, 145, 0.2);
@@ -424,19 +424,19 @@ h3{
   padding-top: 40px;
 }
 
-.txtBlauw{
+.txtBlue{
   color: #000;
   margin-right: 130px;
 }
-.txtBlauw h1{
+.txtBlue h1{
   font-size: 20px;
 }
-.txtBlauw p{
+.txtBlue p{
   font-size: 16px;
   margin-top: 20px;
 }
-.txtBlauw a{
-  color: #000;
+.txtBlue a{
+color: #000;
  text-decoration: none;
 }
 .icons{
