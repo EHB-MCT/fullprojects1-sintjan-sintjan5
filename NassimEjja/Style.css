@@ -218,28 +218,69 @@ ul.dropdown li a:hover {
 	line-height: 22px;
 	padding: 25px 0px;
 }
+.first-main {
+	width: 85%;
+	margin: 0 auto;
+	padding-top: 120px;
+}
 
 .title {
+	position: relative;
+	line-height: 70px;
+	color: #000;
 	font-family: "SIMPLIFICA";
-	font-size: 25px;
-	text-align: left;
-	padding: 60px 0px;
-}
-.title h1 {
-	font-weight: 100;
 	font-size: 60px;
-	margin-top: 50px;
+	font-weight: 100;
+	margin-top: 40px;
 }
 
 h2 {
-	font-size: 35px;
-	font-weight: 100;
-	color: #000;
-	font-family: "simplifica";
-	padding-top: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	width: 75%;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 300px;
+	padding-bottom: 20px;
+	font-size: 40px;
+	font-weight: 300;
+	color: #fff;
+	font-family: "SIMPLIFICA";
 }
-.oude {
-	padding-bottom: 50px;
+.insch {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	width: 100%;
+	background-image: url(/images/oude\ college.jpg);
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+	font-size: 100px;
+	font-weight: 300;
+	color: #fff;
+	font-family: "SIMPLIFICA";
+}
+.insch2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	width: 100%;
+	background-image: url(/images/Bewegingen.jpg);
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+	font-size: 100px;
+	font-weight: 300;
+	color: #fff;
+	font-family: "SIMPLIFICA";
 }
 /*footer*/
 .foot {
