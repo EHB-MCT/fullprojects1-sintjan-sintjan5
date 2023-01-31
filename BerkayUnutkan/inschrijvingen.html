@@ -6,55 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Organisatie</title>
     <link rel="stylesheet" href="style_berkay.css">
+    <script src="/Search.js"></script>
 </head>
 <body>
+    <div class="end">
     <!--navigatie-->
-    <div class="nav">
-        <div class="image">
-            <a href="/GloryMenga/home.html"><img src="/images/logo_navy_blue.png" alt="logo_navy_blue"></a>
-            <div class="txtI">
-                <p>Sint-Jan Berchmanscollege</p>
-            </div>
-        </div>
-        <div class="rechts"> 
-             <div class="menu">
-                <ul>
-                    <li><a href="/GloryMenga/home.html">Home</a></li>
-                    <li><a href="/GloryMenga/home.html">Over ons</a>
-                        <ul class="dropdown">
-                            <li><a href="/GloryMenga/Opvoedings.html">Opvoedingsproject</a></li>
-                            <li><a href="/NelleFavoreel/schoolvisie.html">Schoolvisie</a></li>
-                            <li><a href="/NassimEjja/OverOns.html">Historiek</a></li>
-                            <li><a href="/NelleFavoreel/janBerchmans.html">Jan Berchmans</a></li>
-                            <li><a href="/NelleFavoreel/motto.html">Motto</a></li>
-                            <li><a href="/NelleFavoreel/jaarthema.html">Jaarthema</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Organisatie</a>
-                        <ul class="dropdown">
-                            <li><a href="inschrijvingen.html">Inschrijvingen</a></li>
-                            <li><a href="/NordineElOuafrasi/index.html">Schoolkosten</a></li>
-                            <li><a href="/NordineElOuafrasi/index.html">Studierichtingen</a></li>
-                            <li><a href="#">Privacybeleid</a></li>
-                            <li><a href="/BerkayUnutkan/wieiswie.html">Wie is wie?</a></li>
-                            <li><a href="#">Leefregels</a></li>
-                            <li><a href="#">Vacatures</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="/NelleFavoreel/contact.html">Contact</a></li>
-                    <div class="svg">
-                        <a href="https://sint-jan-brussel.smartschool.be/login"><img src="/images/smartschool_app_icon.svg" alt="smartschool"></a>
-                    </div>
-                </ul>
-            </div>
-            <div class="box">
-                <form>
-                    <input type="text" name="" placeholder="Typ hier...">
-                    <input type="submit" name="" value="Zoeken">
-                </form>
-            </div>
-        </div>
-</div>
+    <!--Nav-->
+		<div class="top">
+			<div class="nav">
+				<div class="image">
+					<a href="#"><img src="/images/logo_navy_blue.png" alt="logo_navy_blue" /></a>
+					<div class="txtI">
+						<p>Sint-Jan Berchmanscollege</p>
+					</div>
+				</div>
+
+				<div class="rechts"> 
+                    <div class="menu">
+                       <ul>
+                           <li><a href="/GloryMenga/home.html">Home</a></li>
+                           <li><a href="/GloryMenga/home.html">Over ons</a>
+                               <ul class="dropdown">
+                                   <li><a href="/GloryMenga/Opvoedings.html">Opvoedingsproject</a></li>
+                                   <li><a href="/NelleFavoreel/schoolvisie.html">Schoolvisie</a></li>
+                                   <li><a href="/NassimEjja/OverOns.html">Historiek</a></li>
+                                   <li><a href="/NelleFavoreel/janBerchmans.html">Jan Berchmans</a></li>
+                                   <li><a href="/NelleFavoreel/motto.html">Motto</a></li>
+                                   <li><a href="/NelleFavoreel/jaarthema.html">Jaarthema</a></li>
+                               </ul>
+                           </li>
+                           <li><a href="#">Organisatie</a>
+                               <ul class="dropdown">
+                                   <li><a href="inschrijvingen.html">Inschrijvingen</a></li>
+                                   <li><a href="/NordineElOuafrasi/index.html">Schoolkosten</a></li>
+                                   <li><a href="/NordineElOuafrasi/index.html">Studierichtingen</a></li>
+                                   <li><a href="#">Privacybeleid</a></li>
+                                   <li><a href="/BerkayUnutkan/wieiswie.html">Wie is wie?</a></li>
+                                   <li><a href="#">Leefregels</a></li>
+                                   <li><a href="#">Vacatures</a></li>
+                               </ul>
+                           </li>
+                           <li><a href="/NelleFavoreel/contact.html">Contact</a></li>
+                           <div class="svg">
+                               <a href="https://sint-jan-brussel.smartschool.be/login"><img src="/images/smartschool_app_icon.svg" alt="smartschool"></a>
+                           </div>
+                       </ul>
+                   </div>
+					<div class="box">
+						<form>
+							<input type="text" id="searchInput" placeholder="Typ hier..."/>
+							<button type="submit" onclick="search()">Zoeken</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
 
 <!--firstmain-->
 <div class="first-main">
@@ -135,7 +141,7 @@
             </div>
         </div>
     </section>
-    
+</div>
     <footer>
         <div class="foot">
             <div class="kader">
