@@ -13,13 +13,23 @@ body {
 	background-color: #e4e7ec;
 	height: 100%;
 }
+
+.container {
+	background-image: url(/images/pattern2.svg);
+	background-attachment: fixed;
+	background-size: 100%;
+    padding: 100px 0px;
+	margin: 0;
+}
 /*Important*/
 
+/*nav*/
 /*nav*/
 .top {
 	background-color: rgba(228, 231, 236, 0.8);
 	width: 100%;
 	position: fixed;
+	box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
 .nav {
 	padding: 20px 0px;
@@ -180,6 +190,7 @@ ul.dropdown li a:hover {
 .content {
 	display: flex;
 	flex-direction: column;
+	padding-top: 50px;
 	width: 85%;
 	margin: 0 auto;
 }
@@ -334,5 +345,4 @@ h2 {
 	.txtB div {
 		width: 100%;
 	}
-
 }
