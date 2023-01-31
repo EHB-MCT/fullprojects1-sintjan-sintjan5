@@ -165,29 +165,7 @@ ul.dropdown li a:hover{
   width: 100%;
 }
 
-.main{
-  width: 85%;
-  margin: 0 auto;
-}
-.main .first-main{
-  max-width: 1000px;
-  padding-right: 25px;
-}
-.title{
-  grid-row: 1/2;
-  grid-column: 2/3;
-  position: relative;
-  line-height: 70px;
-  color: #000;
-  font-family: 'SIMPLIFICA';
-  font-size: 60px;
-	font-weight: 100;
-  margin-top: 40px;
 
-}
-.title h1{
-  
-}
 /*
 .title::after{
   content: '';
@@ -201,11 +179,110 @@ ul.dropdown li a:hover{
   transform: translateX(-50%);
 }
 */
-h2{
+
+/*firtstmain*/
+.first-main{
+  width: 85%;
+  margin: 0 auto;
+}
+
+h1.title{
+  position: relative;
+  line-height: 70px;
+  color: #000;
+  font-family: 'SIMPLIFICA';
+  font-size: 60px;
+	font-weight: 100;
+  margin-top: 40px;
+
+}
+.insch{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  background-image: url(/images/secundaire.png);
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  font-size: 100px;
+  font-weight: 300;
+  color: #fff;
+  font-family: 'SIMPLIFICA';
+}
+
+.first-main h2{
   font-size: 22px;
   font-weight: 300;
   color: #000;
   font-family: 'Inter', sans-serif;
+  padding: 50px 0px 50px 0px;
+}
+
+
+/*main*/
+
+.main{
+  width: 85%;
+  margin: 0 auto;
+}
+.inschrijvingen {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 100px; 
+}
+.inschrijvingen-class{
+  background-color: rgba(31, 69, 145, 0.2);
+  opacity: 100%;
+  border-radius: 15px;
+  padding-bottom: 50px;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  
+}
+.inschrijvingen-class p{
+  width: 80%;
+  padding-top: 20px;
+  text-align: left;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  font-size: 16px;
+  color: #000;
+  
+}
+
+.inschrijvingen-class a{
+  color: #000;
+  padding: 10px 20px 20px 20px;
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+  display: inline-block;
+  border: none;
+  outline: none;
+  width: 45%;
+  height: 10px;
+  cursor: pointer;
+  color: white;
+  background: #1F4591;
+  transition: 0.3s;
+  border-radius: 10px;
+
+}
+.inschrijvingen-class a:hover {
+  color: #000;
+
+}
+.inschrijvingen div {
+  width: 31%;
+}
+.inschrijvingen-class h4{
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-around;
 }
 
 h3{
@@ -215,66 +292,31 @@ h3{
   font-family: 'Inter', sans-serif;
 }
 
-.tekst{
+/*main2*/
+.main2{
+  width: 85%;
+  margin: 0 auto;
   font-family: 'Inter', sans-serif;
 }
-
-.inschrijvingen {
+.insch2{
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding-top: 50px;
- 
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  background-image: url(/images/inschrijving.png);
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  font-size: 100px;
+  font-weight: 300;
+  color: #fff;
+  font-family: 'SIMPLIFICA';
 }
 
-.inschrijvingen div {
-  width: 31%;
-}
-
-.inschrijvingen-class{
-  background-color: rgba(31, 69, 145, 0.2);
-  opacity: 100%;
-  border-radius: 15px;
-  padding-bottom: 50px;
-}
-.inschrijvingen-class p{
-  width: 90%;
-  padding-top: 20px;
-  padding-left: 20px;
-}
-.inschrijvingen-class li{
-  width: 90%;
-  padding-top: 20px;
-  padding-left: 20px;
-}
-.inschrijvingen-class a{
-  color: #000;
-  padding: 14px 25px;
-  text-align: center;
-  
-  display: inline-block;
-}
-.inschrijvingen-class a:hover {
-  color: rgba(31, 69, 145, 0.9);
-  
-}
-
-.inschrijvingen-class h4{
-  padding-top: 10px;
-  display: flex;
-  justify-content: space-around;
-}
-
-.tekst2 div{
-  padding-bottom: 150px;
-  font-family: 'Inter', sans-serif;
-  
-
-}
-
-.tekst2 h3{
-  margin-top: 100px;
-  margin-bottom: 20px;
+.tekst2 {
+  padding: 100px 0px 100px 0px;
 }
 
 .inschrijvingen2 {
@@ -283,10 +325,7 @@ h3{
   justify-content: space-between;
   
 }
-h3.insch{
-  padding-top: 30px;
-  margin-bottom: 20px;
-}
+
 .inschrijvingen2 div {
   width: 30%;
 }
@@ -295,6 +334,7 @@ h3.insch{
   background-color: rgba(31, 69, 145, 0.2);
   opacity: 100%;
   border-radius: 10px;
+  padding-bottom: 40px;
 }
 
 .inschrijvingen-class2 p{
@@ -324,6 +364,8 @@ h3.insch{
   color: rgba(31, 69, 145, 0.9);
   
 }
+
+/*footer*/
 .foot{
   display: flex;
   justify-content: flex-end;
