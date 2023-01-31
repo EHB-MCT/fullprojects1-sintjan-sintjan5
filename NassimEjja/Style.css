@@ -15,11 +15,9 @@ body {
 }
 
 .container {
-	background-image: url(/images/pattern2.svg);
-	background-attachment: fixed;
-	background-size: 100%;
-    padding: 100px 0px;
-	margin: 0;
+	padding: 100px 0px;
+	margin: 0 auto;
+	width: 85%;
 }
 /*Important*/
 
@@ -191,8 +189,8 @@ ul.dropdown li a:hover {
 	display: flex;
 	flex-direction: column;
 	padding-top: 50px;
-	width: 85%;
-	margin: 0 auto;
+	background-image: url(/images/pattern2.svg);
+	background-size: 100%;
 }
 .historiek {
 	display: flex;
