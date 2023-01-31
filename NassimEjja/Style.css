@@ -28,18 +28,20 @@ body {
 	width: 100%;
 	position: fixed;
 	box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	z-index: 10;
 }
 .nav {
-	padding: 20px 0px;
+	padding: 8px 0;
 	margin: 0 auto;
 	width: 85%;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	flex-direction: row;
+	z-index: 10;
 }
 .image {
-	width: 190px;
+	width: 180px;
 	display: flex;
 	align-items: center;
 	flex-direction: row;
@@ -74,7 +76,7 @@ input[type="text"] {
 	padding: 0 20px;
 	border-radius: 15px 0 0 15px;
 }
-input[type="submit"] {
+button[type="submit"] {
 	font-family: "SIMPLIFICA";
 	font-size: 18px;
 	border-radius: 0 15px 15px 0;
@@ -88,7 +90,7 @@ input[type="submit"] {
 	background: #1f4591;
 	transition: 0.3s;
 }
-input[type="submit"]:hover {
+button[type="submit"]:hover {
 	background: #102649;
 }
 /*Searchbox*/
