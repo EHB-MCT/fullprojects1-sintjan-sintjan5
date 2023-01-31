@@ -17,7 +17,7 @@ function search() {
     }
 
     if( searchInput === "historiek"){
-      window.open("/NassimEjja/Historiek.html");    
+      window.open("/NassimEjja/History.html");    
     }
 
     if( searchInput === "jan"){
