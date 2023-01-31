@@ -4,10 +4,11 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>jaarthema</title>
+		<title>Jan Berchmans</title>
 		<link rel="stylesheet" href="style_Nelle4.css" />
 	</head>
 	<body>
+		<!--Nav-->
 		<div class="top">
 			<div class="nav">
 				<div class="image">
@@ -20,13 +21,13 @@
 				<div class="rechts">
 					<div class="menu">
 						<ul>
-							<li><a href="Home.html">Home</a></li>
+							<li><a href="/GloryMenga/home.html">Home</a></li>
 							<li>
 								<a href="/GloryMenga/home.html">Over ons</a>
 								<ul class="dropdown">
 									<li><a href="/GloryMenga/Opvoedings.html">Opvoedingsproject</a></li>
 									<li><a href="/NelleFavoreel/schoolvisie.html">Schoolvisie</a></li>
-									<li><a href="/NassimEjja/OverOns.html">Historiek</a></li>
+									<li><a href="/NassimEjja/History.html">Historiek</a></li>
 									<li><a href="/NelleFavoreel/janBerchmans.html">Jan Berchmans</a></li>
 									<li><a href="/NelleFavoreel/motto.html">Motto</a></li>
 									<li><a href="/NelleFavoreel/jaarthema.html">Jaarthema</a></li>
@@ -35,7 +36,7 @@
 							<li>
 								<a href="#">Organisatie</a>
 								<ul class="dropdown">
-									<li><a href="/BerkayUnutkan/inschrijvingen.html">Inschrijvingen</a></li>
+									<li><a href="inschrijvingen.html">Inschrijvingen</a></li>
 									<li><a href="/NordineElOuafrasi/index.html">Schoolkosten</a></li>
 									<li><a href="/NordineElOuafrasi/index.html">Studierichtingen</a></li>
 									<li><a href="#">Privacybeleid</a></li>
@@ -46,19 +47,20 @@
 							</li>
 							<li><a href="/NelleFavoreel/contact.html">Contact</a></li>
 							<div class="svg">
-								<a href="https://sint-jan-brussel.smartschool.be/login" target="_blank"><img src="/images/smartschool_app_icon.svg" alt="smartschool" /></a>
+								<a href="https://sint-jan-brussel.smartschool.be/login"><img src="/images/smartschool_app_icon.svg" alt="smartschool" /></a>
 							</div>
 						</ul>
 					</div>
 					<div class="box">
 						<form>
-							<input type="text" name="" placeholder="Typ hier..." />
-							<input type="submit" name="" value="Zoeken" />
+							<input type="text" id="searchInput" placeholder="Typ hier..." />
+							<button type="submit" onclick="search()">Zoeken</button>
 						</form>
 					</div>
 				</div>
 			</div>
 		</div>
+		<!--Nav-->
 		<div class="grid">
 			<div class="head">
 				<h1>Jan Berchmans</h1>

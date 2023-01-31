@@ -167,6 +167,7 @@ ul.dropdown li a:hover {
 .content {
 	width: 85%;
 	margin: 0 auto;
+	
 }
 
 .title h1 {
@@ -183,6 +184,9 @@ ul.dropdown li a:hover {
 	border-radius: 15px;
 	color: #fff;
 	font-weight: 100;
+	display: flex;
+	flex-direction: row;
+	
 }
 .Links li {
 	list-style-type: none;
