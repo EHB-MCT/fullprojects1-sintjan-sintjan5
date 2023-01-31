@@ -292,6 +292,9 @@ ul.dropdown li a:hover{
 .poster img{
     width: 50%;
 }
+video{
+    width: 1000px;
+}
 .vid{
     display: flex;
     justify-content: center;
@@ -500,3 +503,7 @@ ul.dropdown li a:hover{
     width: 60%;
 }
 /*Footer*/
+
+@media screen and (max-width: 480px) {
+    
+}
