@@ -324,3 +324,24 @@ ul.dropdown li a:hover {
 	background-size: 100%;
 	padding: 100px 0px;
 }
+@media (max-width: 480px) {
+	.foto {
+		grid-row: 2/3;
+		border: none;
+		grid-column: 2/11;
+		width: 100%;
+		margin: 0;
+	}
+	.tekst {
+		grid-row: 3/4;
+		grid-column: 2/11;
+	}
+	.tekst h3 {
+		margin: 0;
+	}
+	.tekst2 {
+		grid-row: 4/5;
+		grid-column: 2/11;
+		margin: 0;
+	}
+}
