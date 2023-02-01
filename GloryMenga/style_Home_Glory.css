@@ -495,14 +495,55 @@ video{
     width: 60%;
 }
 /*Footer*/
+/*Hamburger*/
+.burger{
+    display: none;
+}
+.burger div{
+    width: 25px;
+    height: 3px;
+    background-color: #102649;
+    margin: 5px;
+}
+.menu-active{
+    transform: translateX(0%);
+}
+/*Hamburger*/
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
+    body{
+        overflow-x: hidden;
+    }
     .txtI{
         display: none;
     }
     .box{
         display: none;
     }
+    /*hamburger menu*/
+    .menu ul{
+        margin-right: 0px;
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color: #E4E7EC;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+    .menu ul li {
+        opacity: 0;
+    }
+    .burger{
+        display: block;
+        cursor: pointer;
+    }
+    
     /*hamburger menu*/
     .top{
         box-shadow: none;
@@ -556,5 +597,8 @@ video{
     }
     .home{
         margin-top: 0px;
+    }
+    .vertline{
+        display: none;
     }
 }
