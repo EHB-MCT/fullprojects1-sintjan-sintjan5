@@ -384,4 +384,40 @@ ul.dropdown li a:hover {
 		width: 50px;
 		margin-top: 50px;
 	}
+	/*foot responsive*/
+	.kader {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		border-radius: 0px;
+		height: 500px;
+		margin-top: 0px;
+	}
+	.icons {
+		justify-content: center;
+	}
+	.icon {
+		width: 10%;
+	}
+	.icon img {
+		width: 100%;
+	}
+	.kader h1 {
+		font-size: 60px;
+		margin-bottom: 25px;
+		margin-top: 0px;
+	}
+	.kader p {
+		font-size: 20px;
+	}
+	.foot {
+		justify-content: center;
+	}
+	.wit {
+		display: none;
+	}
+	.blauw {
+		display: none;
+	}
+	/*foot responsive*/
 }
