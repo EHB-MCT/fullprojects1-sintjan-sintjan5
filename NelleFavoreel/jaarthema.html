@@ -7,13 +7,14 @@
 		<title>jaarthema</title>
 		<link rel="shortcut icon" href="/images/logo_navy_blue.png" />
 		<link rel="stylesheet" href="style_Nelle2.css" />
+		<link rel="stylesheet" href="/NelleFavoreel/menu.css" />
 	</head>
 	<body>
 		<!--Nav-->
 		<div class="top">
 			<div class="nav">
 				<div class="image">
-					<a href="#"><img src="/images/logo_navy_blue.png" alt="logo_navy_blue" /></a>
+					<a href="/GloryMenga/home.html"><img src="/images/logo_navy_blue.png" alt="logo_navy_blue" /></a>
 					<div class="txtI">
 						<p>Sint-Jan Berchmanscollege</p>
 					</div>
@@ -62,6 +63,64 @@
 			</div>
 		</div>
 		<!--Nav-->
+		<!--Hamburger-->
+		<div class="navErik">
+			<div class="image">
+				<a href="#"><img src="/images/logo_navy_blue.png" alt="logo_navy_blue" /></a>
+				<div class="txtI">
+					<p>Sint-Jan Berchmanscollege</p>
+				</div>
+			</div>
+			<!--    Made by Erik Terwan    -->
+			<!--   24th of November 2015   -->
+			<!--        MIT License        -->
+			<nav role="navigation">
+				<div id="menuToggle">
+					<!--
+	  A fake / hidden checkbox is used as click reciever,
+	  so you can use the :checked selector on it.
+	  -->
+					<input type="checkbox" onclick="myFunction()" />
+
+					<!--
+	  Some spans to act as a hamburger.
+	  
+	  They are acting like a real hamburger,
+	  not that McDonalds stuff.
+	  -->
+					<span></span>
+					<span></span>
+					<span></span>
+
+					<!--
+	  Too bad the menu has to be inside of the button
+	  but hey, it's pure CSS magic.
+	  -->
+					<ul id="menu" style="display: none">
+						<li><a>Over ons</a></li>
+						<li><a class="smally" href="/GloryMenga/Opvoedings.html">Opvoedingsproject</a></li>
+						<li><a class="smally" href="/NelleFavoreel/schoolvisie.html">Schoolvisie</a></li>
+						<li><a class="smally" href="/NassimEjja/History.html">Historiek</a></li>
+						<li><a class="smally" href="/NelleFavoreel/janBerchmans.html">Jan Berchmans</a></li>
+						<li><a class="smally" href="/NelleFavoreel/motto.html">Motto</a></li>
+						<li><a class="smally" href="/NelleFavoreel/jaarthema.html">Jaarthema</a></li>
+						<li><a>Organisatie</a></li>
+						<li><a class="smally" href="inschrijvingen.html">Inschrijvingen</a></li>
+						<li><a class="smally" href="/NordineElOuafrasi/index.html">Schoolkosten</a></li>
+						<li><a class="smally" href="/NordineElOuafrasi/index.html">Studierichtingen</a></li>
+						<li><a class="smally" href="#">Privacybeleid</a></li>
+						<li><a class="smally" href="/BerkayUnutkan/wieiswie.html">Wie is wie?</a></li>
+						<li><a class="smally" href="#">Leefregels</a></li>
+						<li><a class="smally" href="#">Vacatures</a></li>
+						<li><a href="/NelleFavoreel/contact.html">Contact</a></li>
+						<div class="svg">
+							<a href="https://sint-jan-brussel.smartschool.be/login"><img src="/images/smartschool_app_icon.svg" alt="smartschool" /></a>
+						</div>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<!--Hamburger-->
 		<div class="grid">
 			<div class="head">
 				<h1>Jaarthema:</h1>
@@ -99,6 +158,7 @@
 				</p>
 			</div>
 		</div>
+		<!--Footer-->
 		<footer>
 			<div class="foot">
 				<div class="kader">
@@ -143,5 +203,16 @@
 				</div>
 			</div>
 		</footer>
+		<!--Footer-->
+		<script>
+			function myFunction() {
+				var x = document.getElementById("menu");
+				if (x.style.display === "block") {
+					x.style.display = "none";
+				} else {
+					x.style.display = "block";
+				}
+			}
+		</script>
 	</body>
 </html>
