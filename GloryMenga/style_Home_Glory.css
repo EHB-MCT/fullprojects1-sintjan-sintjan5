@@ -499,7 +499,7 @@ video{
 
 /*Hamburger*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
     /*nav*/
     .txtI{
         display: none;
@@ -630,7 +630,7 @@ video{
         justify-content: center;
         width: 100%;
         border-radius: 0px;
-        height: 500px;
+        height: 400px;
         margin-top: 0px;
     }
     .icons{
@@ -643,7 +643,8 @@ video{
         width: 100%;
     }
     .kader h1{
-        font-size: 60px;
+        text-align: center;
+        font-size: 40px;
         margin-bottom: 25px;
         margin-top: 0px;
     }

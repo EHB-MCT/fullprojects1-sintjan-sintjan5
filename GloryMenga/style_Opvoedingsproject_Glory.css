@@ -398,7 +398,7 @@ ul.dropdown li a:hover{
     width: 60%;
 }
 /*Footer*/
-@media screen and (max-width: 786px) {
+@media screen and (max-width: 480px) {
     /*nav*/
     .box{
         display: none;
@@ -420,7 +420,7 @@ ul.dropdown li a:hover{
         justify-content: center;
         width: 100%;
         border-radius: 0px;
-        height: 500px;
+        height: 400px;
         margin-top: 0px;
     }
     .icons{
@@ -433,7 +433,8 @@ ul.dropdown li a:hover{
         width: 100%;
     }
     .kader h1{
-        font-size: 60px;
+        text-align: center;
+        font-size: 40px;
         margin-top: 0px;
     }
     .kader p{
