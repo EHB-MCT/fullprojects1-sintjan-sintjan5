@@ -350,7 +350,7 @@ ul.dropdown li a:hover {
 	.head {
 		grid-row: 1/2;
 		grid-column: 2/6;
-		margin-top: 120px;
+		margin-top: 0px;
 	}
 	.location {
 		grid-column: 4/12;
@@ -374,15 +374,14 @@ ul.dropdown li a:hover {
 		margin-top: 20px;
 		margin-right: 0;
 	}
-
-	.grid {
-		padding: 0;
+	.top {
+		display: none;
 	}
 	.grid h4 {
 		font-size: 13;
 	}
 	.svg {
-		width: 15%;
-		margin-top: 40px;
+		width: 50px;
+		margin-top: 50px;
 	}
 }

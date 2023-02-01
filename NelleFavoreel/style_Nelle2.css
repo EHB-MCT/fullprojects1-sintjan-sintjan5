@@ -348,6 +348,21 @@ ul.dropdown li a:hover {
 		padding: 0;
 	}
 	.head {
-		padding-top: 150px;
+		padding-top: 100px;
+	}
+	.image {
+		margin-left: 20px;
+		margin-top: 20px;
+		margin-right: 0;
+	}
+	.top {
+		display: none;
+	}
+	.grid h4 {
+		font-size: 13;
+	}
+	.svg {
+		width: 50px;
+		margin-top: 50px;
 	}
 }
