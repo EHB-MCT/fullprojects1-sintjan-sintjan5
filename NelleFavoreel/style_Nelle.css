@@ -4,12 +4,12 @@
 	src: url(/SIMPLIFICA/SIMPLIFICA/SIMPLIFICA\ Typeface.ttf);
 }
 
-.locatie {
+.location {
 	grid-column: 3/8;
 	grid-row: 2/3;
 	margin-top: 90px;
 }
-.locatieIcon {
+.locationIcon {
 	grid-column: 2/3;
 	grid-row: 2/4;
 	margin-top: 90px;
@@ -257,7 +257,6 @@ ul.dropdown li a:hover {
 	height: 250px;
 }
 .kader {
-	font-family: "Inter", sans-serif;
 	position: absolute;
 	background-color: rgba(31, 69, 145, 0.9);
 	color: white;
@@ -265,15 +264,23 @@ ul.dropdown li a:hover {
 	flex-direction: column;
 	opacity: 80%;
 	border-radius: 15px;
-	margin-top: 100px;
+	margin-top: 90px;
 	width: 280px;
 	height: 290px;
 }
 .kader h1 {
+	font-family: "SIMPLIFICA";
+	display: flex;
+	justify-content: center;
 	margin-top: 25px;
 	margin-left: 13px;
 	margin-bottom: 18px;
-	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	font-size: 28px;
+}
+.kader p {
+	font-family: "Inter", sans-serif;
 }
 .blauw {
 	display: flex;
@@ -296,7 +303,9 @@ ul.dropdown li a:hover {
 	margin-right: 130px;
 }
 .txtBlauw h1 {
-	font-size: 20px;
+	font-family: "SIMPLIFICA";
+	letter-spacing: 1px;
+	font-size: 28px;
 }
 .txtBlauw p {
 	font-size: 16px;
@@ -304,6 +313,11 @@ ul.dropdown li a:hover {
 }
 .txtBlauw a {
 	color: #000;
+	text-decoration: none;
+}
+.txtBlauw a:hover {
+	color: #1f4591;
+	font-weight: 600;
 	text-decoration: none;
 }
 .icons {
@@ -317,6 +331,7 @@ ul.dropdown li a:hover {
 	width: 14%;
 }
 .icon img {
+	filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(24deg) brightness(105%) contrast(113%);
 	width: 100%;
 }
 .icons p {
@@ -325,11 +340,7 @@ ul.dropdown li a:hover {
 	line-height: 20px;
 	width: 60%;
 }
-.top {
-	background-color: rgba(228, 231, 236, 0.8);
-	width: 100%;
-	position: fixed;
-}
+/*Footer*/
 .grid {
 	background-image: url(/images/pattern2.svg);
 	background-size: 100%;
@@ -341,7 +352,7 @@ ul.dropdown li a:hover {
 		grid-column: 2/6;
 		margin-top: 120px;
 	}
-	.locatie {
+	.location {
 		grid-column: 4/12;
 		grid-row: 2/3;
 		margin-top: 90px;
@@ -357,5 +368,21 @@ ul.dropdown li a:hover {
 	.mail {
 		grid-column: 4 / 12;
 		grid-row: 4/7;
+	}
+	.image {
+		margin-left: 20px;
+		margin-top: 20px;
+		margin-right: 0;
+	}
+
+	.grid {
+		padding: 0;
+	}
+	.grid h4 {
+		font-size: 13;
+	}
+	.svg {
+		width: 15%;
+		margin-top: 40px;
 	}
 }
