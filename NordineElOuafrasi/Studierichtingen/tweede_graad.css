@@ -77,3 +77,23 @@ img:hover
     transition: 0.5s;
     border: 0.3em solid rgba(31, 69, 145, 0.9);
 }
+
+
+.container-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    background-image: url(/images/inschrijving.png);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    font-size: 100px;
+    font-weight: 300;
+    color: #fff;
+    font-family: 'SIMPLIFICA';
+    margin-top: 1em;
+  }
+  
