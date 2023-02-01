@@ -380,7 +380,7 @@ h3{
   margin: 0 auto;
   width: 85%;
 }
-.white{
+.wit{
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
@@ -389,8 +389,7 @@ h3{
   width: 85%;
   height: 250px;
 }
-.frame{
-  font-family: 'Inter',sans-serif;
+.kader{
   position: absolute;
   background-color: rgba(31, 69, 145, 0.9);
   color: white;
@@ -398,17 +397,25 @@ h3{
   flex-direction: column;
   opacity: 80%;
   border-radius: 15px;
-  margin-top: 100px;
+  margin-top: 90px;
   width: 280px;
   height: 290px;
 }
-.frame h1{
+.kader h1{
+  font-family: 'SIMPLIFICA';
+  display: flex;
+  justify-content: center;
   margin-top: 25px;
   margin-left: 13px;
   margin-bottom: 18px;
-  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 28px;
 }
-.blue{
+.kader p{
+  font-family: 'Inter',sans-serif;
+}
+.blauw{
   display: flex;
   flex-direction: row;
   background-color: rgba(31, 69, 145, 0.2);
@@ -424,20 +431,27 @@ h3{
   padding-top: 40px;
 }
 
-.txtBlue{
+.txtBlauw{
   color: #000;
   margin-right: 130px;
 }
-.txtBlue h1{
-  font-size: 20px;
+.txtBlauw h1{
+  font-family: 'SIMPLIFICA';
+  letter-spacing: 1px;
+  font-size: 28px;
 }
-.txtBlue p{
+.txtBlauw p{
   font-size: 16px;
   margin-top: 20px;
 }
-.txtBlue a{
+.txtBlauw a{
   color: #000;
- text-decoration: none;
+  text-decoration: none;
+}
+.txtBlauw a:hover{
+  color: #1F4591;
+  font-weight: 600;
+  text-decoration: none;
 }
 .icons{
   display: flex;
@@ -450,6 +464,7 @@ h3{
   width: 14%;
 }
 .icon img{
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(24deg) brightness(105%) contrast(113%);
   width: 100%;
 }
 .icons p{
@@ -458,3 +473,4 @@ h3{
   line-height: 20px;
   width: 60%;
 }
+/*Footer*/
