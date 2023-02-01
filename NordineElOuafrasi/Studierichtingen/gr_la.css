@@ -237,6 +237,24 @@ ul.dropdown li a:hover{
     padding-top: 30px;
 }
 
+.container-head .sub-title
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    background-image: url(/images/inschrijving.png);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    font-size: 100px;
+    font-weight: 300;
+    color: #fff;
+    font-family: 'SIMPLIFICA';
+    margin-top: 1em;
+}
 
 
 
