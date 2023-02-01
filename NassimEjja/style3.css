@@ -1,17 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+
 @font-face {
 	font-family: "SIMPLIFICA";
 	src: url(/SIMPLIFICA/SIMPLIFICA/SIMPLIFICA\ Typeface.ttf);
-}
-
-.grid {
-	display: grid;
-	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: repeat(12, auto);
-	font-family: "inter";
-	font-size: 15px;
-	margin-bottom: 100px;
-	margin-top: 50px;
 }
 * {
 	margin: 0;
@@ -23,24 +14,28 @@ body {
 	background-color: #e4e7ec;
 	height: 100%;
 }
+/*Important*/
+
 /*nav*/
 .top {
 	background-color: rgba(228, 231, 236, 0.8);
 	width: 100%;
 	position: fixed;
 	box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	z-index: 10;
 }
 .nav {
-	padding: 20px 0px;
+	padding: 8px 0;
 	margin: 0 auto;
 	width: 85%;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	flex-direction: row;
+	z-index: 10;
 }
 .image {
-	width: 190px;
+	width: 180px;
 	display: flex;
 	align-items: center;
 	flex-direction: row;
@@ -53,7 +48,7 @@ body {
 .image img {
 	width: 100%;
 }
-.rechts {
+.right {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -185,6 +180,184 @@ ul.dropdown li a:hover {
 	width: 100%;
 }
 /*nav*/
+
+/*firtstmain*/
+
+.first-main {
+	width: 85%;
+	margin: 0 auto;
+}
+h1.title {
+	position: relative;
+	line-height: 70px;
+	color: #000;
+	font-family: "SIMPLIFICA";
+	font-size: 60px;
+	font-weight: 100;
+	margin-top: 120px;
+}
+.registration-title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	width: 100%;
+	background-image: url(/images/secundaire.png);
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+	font-size: 100px;
+	font-weight: 300;
+	color: #fff;
+	font-family: "SIMPLIFICA";
+}
+
+.first-main h2 {
+	font-size: 18px;
+	font-weight: 300;
+	color: #000;
+	font-family: "Inter", sans-serif;
+	padding: 50px 0px 50px 0px;
+}
+
+/*main*/
+
+.main {
+	width: 85%;
+	margin: 0 auto;
+}
+.registration {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-top: 100px;
+}
+.registration-class {
+	background-color: rgba(31, 69, 145, 0.2);
+	opacity: 100%;
+	border-radius: 15px;
+	padding-bottom: 50px;
+	font-family: "Inter", sans-serif;
+	text-align: center;
+}
+.registration-class p {
+	width: 80%;
+	padding-top: 20px;
+	text-align: left;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	font-size: 16px;
+	color: #000;
+}
+
+.registration-class a {
+	color: #000;
+	padding: 10px 20px 20px 20px;
+	text-decoration: none;
+	text-align: center;
+	align-items: center;
+	display: inline-block;
+	border: none;
+	outline: none;
+	width: 45%;
+	height: 10px;
+	cursor: pointer;
+	color: white;
+	background: #1f4591;
+	transition: 0.3s;
+	border-radius: 10px;
+}
+.registration-class a:hover {
+	color: #000;
+}
+.registration div {
+	width: 31%;
+}
+.registration-class h4 {
+	padding-top: 10px;
+	display: flex;
+	justify-content: space-around;
+}
+
+h3 {
+	font-size: 20px;
+	font-weight: bold;
+	color: #000;
+	font-family: "Inter", sans-serif;
+}
+
+/*main2*/
+.main2 {
+	width: 85%;
+	margin: 0 auto;
+	font-family: "Inter", sans-serif;
+}
+.registration-title-2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	width: 100%;
+	background-image: url(/images/inschrijving.png);
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+	font-size: 100px;
+	font-weight: 300;
+	color: #fff;
+	font-family: "SIMPLIFICA";
+}
+
+.second-layer {
+	padding: 100px 0px 100px 0px;
+}
+
+.registration-2 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.registration-2 div {
+	width: 30%;
+}
+
+.registration-class-2 {
+	background-color: rgba(31, 69, 145, 0.2);
+	opacity: 100%;
+	border-radius: 10px;
+	padding-bottom: 40px;
+}
+
+.registration-class-2 p {
+	width: 90%;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+.registration-class-2 ol {
+	width: 90%;
+	padding-top: 20px;
+	padding-left: 40px;
+}
+.registration-class-2 a {
+	width: 90%;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+.registration-class-2 h4 {
+	padding-top: 10px;
+	display: flex;
+	justify-content: space-around;
+}
+.registration-class-2 a {
+	color: #000;
+}
+.registration-class-2 a:hover {
+	color: rgba(31, 69, 145, 0.9);
+}
+
 /*footer*/
 .foot {
 	display: flex;
@@ -192,7 +365,7 @@ ul.dropdown li a:hover {
 	margin: 0 auto;
 	width: 85%;
 }
-.wit {
+.white {
 	display: flex;
 	align-items: flex-end;
 	justify-content: flex-end;
@@ -201,7 +374,8 @@ ul.dropdown li a:hover {
 	width: 85%;
 	height: 250px;
 }
-.kader {
+.frame {
+	font-family: "Inter", sans-serif;
 	position: absolute;
 	background-color: rgba(31, 69, 145, 0.9);
 	color: white;
@@ -209,25 +383,17 @@ ul.dropdown li a:hover {
 	flex-direction: column;
 	opacity: 80%;
 	border-radius: 15px;
-	margin-top: 90px;
+	margin-top: 100px;
 	width: 280px;
 	height: 290px;
 }
-.kader h1 {
-	font-family: "SIMPLIFICA";
-	display: flex;
-	justify-content: center;
+.frame h1 {
 	margin-top: 25px;
 	margin-left: 13px;
 	margin-bottom: 18px;
-	font-weight: 400;
-	letter-spacing: 1px;
-	font-size: 28px;
+	font-size: 20px;
 }
-.kader p {
-	font-family: "Inter", sans-serif;
-}
-.blauw {
+.blue {
 	display: flex;
 	flex-direction: row;
 	background-color: rgba(31, 69, 145, 0.2);
@@ -243,26 +409,19 @@ ul.dropdown li a:hover {
 	padding-top: 40px;
 }
 
-.txtBlauw {
+.txtBlue {
 	color: #000;
 	margin-right: 130px;
 }
-.txtBlauw h1 {
-	font-family: "SIMPLIFICA";
-	letter-spacing: 1px;
-	font-size: 28px;
+.txtBlue h1 {
+	font-size: 20px;
 }
-.txtBlauw p {
+.txtBlue p {
 	font-size: 16px;
 	margin-top: 20px;
 }
-.txtBlauw a {
+.txtBlue a {
 	color: #000;
-	text-decoration: none;
-}
-.txtBlauw a:hover {
-	color: #1f4591;
-	font-weight: 600;
 	text-decoration: none;
 }
 .icons {
@@ -276,7 +435,6 @@ ul.dropdown li a:hover {
 	width: 14%;
 }
 .icon img {
-	filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(24deg) brightness(105%) contrast(113%);
 	width: 100%;
 }
 .icons p {
@@ -285,81 +443,48 @@ ul.dropdown li a:hover {
 	line-height: 20px;
 	width: 60%;
 }
-/*Footer*/
-.foto img {
-	width: 90%;
-	margin-top: 20%;
-	margin-bottom: 20%;
-}
-.foto {
-	grid-column: 2/4;
-	grid-row: 3/11;
-	border-right: 1px solid #808080;
-}
-.tekst {
-	grid-column: 4/8;
-	grid-row: 2/12;
-	font-weight: 100;
-}
-.tekst h3 {
-	margin-left: 40px;
-	font-weight: 100;
-}
-.tekst2 h3 {
-	font-weight: 100;
-}
-.tekst2 {
-	grid-column: 8/12;
-	grid-row: 2/12;
-	margin-left: 50px;
-}
-.head {
-	margin-bottom: 40px;
-	margin-top: 40px;
-	grid-column: 2/6;
-}
-.tekst h3 {
-	font-weight: 100;
-	margin-bottom: 30px;
-	margin-right: 30px;
-}
-.head h1 {
-	font-family: "SIMPLIFICA";
-	font-size: 60px;
-	font-weight: 100;
-}
-.top {
-	background-color: rgba(228, 231, 236, 0.8);
-	width: 100%;
-	position: fixed;
-}
-.grid {
-	background-image: url(/images/pattern2.svg);
-	background-size: 100%;
-	padding-bottom: 300px 0px;
-	padding-top: 100px;
-}
-@media (max-width: 480px) {
-	.foto {
-		grid-row: 2/3;
-		border: none;
-		grid-column: 2/11;
+@media only screen and (max-width: 480px) {
+	a {
+		/* tablet & desktop version */
+		display: inline-block;
+		margin-right: 20px;
+	}
+	h1.title {
+		/* tablet */
 		width: 100%;
-		margin: 0;
 	}
-	.tekst {
-		grid-row: 3/4;
-		grid-column: 2/11;
+	.txtB {
+		flex-wrap: wrap;
 	}
-	.tekst h3 {
-		margin: 0;
+	.txtB div {
+		width: 100%;
 	}
-	.tekst2 {
-		grid-row: 4/5;
-		grid-column: 2/11;
-		margin: 0;
+	.insch2 {
+		text-align: center;
 	}
-	h3 {
-		font-size: 13px;
+	.insch {
+		text-align: center;
+	}
+	.title {
+		text-align: center;
+	}
+	.registration-title {
+		text-align: center;
+	}
+	.registration-class {
+		display: inline-block;
+	}
+	.registration-class-2 {
+		display: inline-block;
+	}
+
+	.registration div {
+		width: 100%;
+		margin-bottom: 50px;
+	}
+	.registration-class-2 div {
+		width: 100%;
+		margin-bottom: 50px;
+		flex-direction: column;
 	}
 }
