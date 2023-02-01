@@ -9,6 +9,362 @@
     margin: 0;
     padding: 0;
 }
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #E4E7EC;
+    height: 100%;
+}
+/*Important*/
+
+/*nav*/
+.top{
+    background-color: rgba(228, 231, 236, 0.8);
+    width: 100%;
+    position: fixed;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    z-index: 10;
+}
+.nav{
+    padding: 8px 0;
+    margin: 0 auto;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    z-index: 10;
+}
+.image{
+    width: 180px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.txtI{
+    font-family: 'SIMPLIFICA';
+    margin-left: 30px;
+    font-size: 20px;
+}
+.image img{
+    width: 100%;
+}
+.rechts{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+form{
+    display: flex;
+    align-items: center;
+}
+
+/*Searchbox*/
+input[type="text"]
+{
+    font-family: 'SIMPLIFICA';
+    font-size: 20px;
+    background-color: white;
+    width: 50%;
+    height: 35px;
+    border: 1px solid #000;
+    outline: none;
+    padding: 0 20px;
+    border-radius: 15px 0 0 15px;
+}
+button[type="submit"]
+{
+    font-family: 'SIMPLIFICA';
+    font-size: 18px;
+    border-radius: 0 15px 15px 0;
+    letter-spacing: 1px;
+    border: none;
+    outline: none;
+    width: 30%;
+    height: 37px;
+    cursor: pointer;
+    color: white;
+    background: #1F4591;
+    transition: 0.3s;
+}
+button[type="submit"]:hover
+{
+    background: #102649;
+}
+/*Searchbox*/
+
+.nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin-right: 20px;
+}
+.nav a{
+    color: #000;
+    font-size: 22px;
+    font-family: 'SIMPLIFICA';
+    text-decoration: none;
+}
+.nav li{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    list-style: none;
+}
+.menu ul li::after{
+    content: '';
+    width: 0%;
+    height: 1px;
+    background: #1F4591;
+    display: block;
+    margin: auto;
+    transition: 0.3s;
+}
+
+.menu ul li:hover::after{
+    width: 100%;
+}
+.dropdown{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+.menu ul li{
+    display: flex;
+    flex-direction: column;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+}
+.menu img{
+    width: 15%;
+}
+
+/*DropdownList*/
+ul.dropdown{
+    background-color: white;
+    border-radius: 15px;
+    z-index: 10;
+}
+ul li ul.dropdown li{
+    padding: 10px;
+    display: block;
+}
+ul li ul.dropdown{
+    position: absolute;
+    display: none;
+    transition: 0.3s;
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+ul.dropdown li::after{
+    width: 0%;
+    height: 1px;
+    background: #1F4591;
+    display: none;
+    margin: auto;
+    transition: 0.3s;
+}
+ul.dropdown li:hover::after{
+    width: 100%;
+}
+ul.dropdown li a:hover{
+    color: #1F4591;
+    font-weight: 600;
+}
+/*Dropdownlist*/
+.svg{ 
+    width: 4%;
+}
+.svg img{
+    width: 100%;
+}
+/*nav*/
+
+/*footer*/
+.foot{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 auto;
+    width: 85%;
+}
+.wit{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background-color: #E4E7EC;
+    margin: 0 auto;
+    width: 85%;
+    height: 250px;
+}
+.kader{
+    position: absolute;
+    background-color: rgba(31, 69, 145, 0.9);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    opacity: 80%;
+    border-radius: 15px;
+    margin-top: 90px;
+    width: 280px;
+    height: 290px;
+}
+.kader h1{
+    font-family: 'SIMPLIFICA';
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-left: 13px;
+    margin-bottom: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 28px;
+}
+.kader p{
+    font-family: 'Inter',sans-serif;
+}
+.blauw{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(31, 69, 145, 0.2);
+    width: 100%;
+    height: 220px;
+}
+.txtB{
+    font-family: 'Inter',sans-serif;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 40px;
+}
+
+.txtBlauw{
+    color: #000;
+    margin-right: 130px;
+}
+.txtBlauw h1{
+    font-family: 'SIMPLIFICA';
+    letter-spacing: 1px;
+    font-size: 28px;
+}
+.txtBlauw p{
+    font-size: 16px;
+    margin-top: 20px;
+}
+.txtBlauw a{
+    color: #000;
+    text-decoration: none;
+}
+.txtBlauw a:hover{
+    color: #1F4591;
+    font-weight: 600;
+    text-decoration: none;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+.icon{
+    width: 14%;
+}
+.icon img{
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(24deg) brightness(105%) contrast(113%);
+    width: 100%;
+}
+.icons p{
+    font-size: 14px;
+    margin-left: 13px;
+    line-height: 20px;
+    width: 60%;
+}
+/*Footer*/
+
+@media screen and (max-width: 480px) {
+    .txtI{
+        display: none;
+    }
+    .box{
+        display: none;
+    }
+    /*hamburger menu*/
+    .top{
+        box-shadow: none;
+        background-color: #E4E7EC;
+        position: relative;
+    }
+    .image{
+        width: 50px;
+    }
+    video{
+        width: 370px;
+    }
+    .inschrijven{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-decoration: none;
+        width:  100%;
+        background-color: transparent;
+        height: 150px;
+        font-size: 40px;
+    }
+    .studierichtingen{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-decoration: none;
+        margin-left: 0px;
+        margin-top: 25px;
+        width:  100%;
+        height: 150px;
+        font-size: 40px;
+    }
+    .wit{
+        display: none;
+    }
+    .blauw{
+        display: none;
+    }
+    .last{
+        display: flex;
+        justify-content: center;
+        padding: 20px 0;
+    }
+    .einde{
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .home{
+        margin-top: 0px;
+    }
+}
+
+
+
+/*Studieaanbod*/
+
+/*Important*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+@font-face {
+    font-family: 'SIMPLIFICA';
+    src: url(/SIMPLIFICA/SIMPLIFICA/SIMPLIFICA\ Typeface.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
 
 body
 {
@@ -73,4 +429,5 @@ img:hover
     width: 102%;
     transition: 0.5s;
     border: 0.3em solid rgba(31, 69, 145, 0.9);
+    border-radius: 5%;
 }

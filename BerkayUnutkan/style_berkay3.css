@@ -47,7 +47,7 @@ body{
 .image img{
     width: 100%;
 }
-.rechts{
+.right{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -191,7 +191,7 @@ ul.dropdown li a:hover{
     background-size: cover;
     
 }
-.Opvoeding{
+.vacancies{
     display: flex;
     flex-direction: row;
     padding: 80px 0px 170px 0px;
@@ -199,97 +199,48 @@ ul.dropdown li a:hover{
     width: 85%;
     padding-bottom: 50px; 
 }
-.Opvoeding li{
+.vacancies li{
     padding-top: 10px;
     list-style-type: square;
     font-family: 'Inter',sans-serif;
 }
-.OP{
+.layer{
     width: 60%;
     
     
 }
-.fotoOP{
+.imageLayer{
     display: flex;
     justify-content: flex-end;
     width: 100%;
     
     
 }
-.fotoOP img{
+.imageLayer img{
     width: 80%;
 
 }
-.OP h1{
+.layer h1{
     font-family: 'SIMPLIFICA';
     letter-spacing: 1px;
     font-size: 40px;
     margin-bottom: 20px;
     font-weight: 100;
 }
-.OP p{
+.layer p{
     font-family: 'Inter',sans-serif;
     width: 80%;
 }
 
-.stappen{
-    margin: 10px auto;
-    width: 85%;
-}
-.stappen h1{
-    font-family: 'SIMPLIFICA';
-    font-size: 24px;
-}
-.stap{
-    width: 50%;
-    margin-top: 80px;
-}
-.stap h1{
-    text-decoration: none;
-    margin-bottom: 20px;
-    letter-spacing: 1px;
-    font-weight: 100;
-    font-size: 40px;
-}
-.stap p{
-    font-family: 'Inter',sans-serif;
-}
-.stappen2{
-    display: flex;
-    justify-content: flex-end;
-    margin: 0px auto;
-    width: 85%;
-}
-.stappen2 h1{
-    font-family: 'SIMPLIFICA';
-    font-size: 24px;
-}
-.stap2{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    margin-top: 80px;
-    width: 50%;
-}
-.stap2 h1{
-    text-decoration: none;
-    margin-bottom: 20px;
-    letter-spacing: 1px;
-    font-weight: 100;
-    font-size: 40px;
-}
-.stap2 p{
-    font-family: 'Inter',sans-serif;
-}
-.titel{
+.title{
     font-size: 24px;
     font-family: 'SIMPLIFICA';
 }
-.titel h1{
+.title h1{
     font-weight: 100;
     font-size: 60px;
 }
-.subtitel{
+.subtitle{
     font-size: 12px;
     font-family: 'Inter',sans-serif;
     font-weight: 100;
@@ -297,7 +248,7 @@ ul.dropdown li a:hover{
     
 }
 
-.vl{
+.line{
     height: 388px;
     margin-left: 120px;
     border-left: 1px solid #808080;
@@ -310,7 +261,7 @@ ul.dropdown li a:hover{
     margin: 0 auto;
     width: 85%;
 }
-.wit{
+.white{
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
@@ -319,7 +270,7 @@ ul.dropdown li a:hover{
     width: 85%;
     height: 250px;
 }
-.kader{
+.frame{
     font-family: 'Inter',sans-serif;
     position: absolute;
     background-color: rgba(31, 69, 145, 0.9);
@@ -332,13 +283,13 @@ ul.dropdown li a:hover{
     width: 280px;
     height: 290px;
 }
-.kader h1{
+.frame h1{
     margin-top: 25px;
     margin-left: 13px;
     margin-bottom: 18px;
     font-size: 20px;
 }
-.blauw{
+.blue{
     display: flex;
     flex-direction: row;
     background-color: rgba(31, 69, 145, 0.2);
@@ -354,22 +305,22 @@ ul.dropdown li a:hover{
     padding-top: 40px;
 }
 
-.txtBlauw{
+.txtBlue{
     color: #000;
     margin-right: 130px;
 }
-.txtBlauw h1{
+.txtBlue h1{
     font-size: 20px;
 }
-.txtBlauw p{
+.txtBlue p{
     font-size: 16px;
     margin-top: 20px;
 }
-.txtBlauw a{
+.txtBlue a{
     color: #000;
    text-decoration: none;
 }
-.txtBlauw a:hover{
+.txtBlue a:hover{
     color: #1F4591;
     font-weight: 600;
     text-decoration: none;

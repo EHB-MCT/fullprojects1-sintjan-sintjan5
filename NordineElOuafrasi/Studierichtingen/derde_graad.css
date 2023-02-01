@@ -76,4 +76,5 @@ img:hover
     width: 102%;
     transition: 0.5s;
     border: 0.3em solid rgba(31, 69, 145, 0.9);
+    border-radius: 5%;
 }

@@ -47,7 +47,7 @@ body{
 .image img{
     width: 100%;
 }
-.rechts{
+.right{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -214,15 +214,15 @@ ul.dropdown li a:hover{
     
 }
 /*hoofdtitel*/
-.hoofdtitel{
+.title{
     font-family: 'SIMPLIFICA';
 }
-.hoofdtitel h1{
+.title h1{
     font-weight: 100;
     font-size: 60px;
 }
 /*subtitel*/
-.subtitel{
+.subtitle{
     padding-top: 40px;
     padding-bottom: 20px;
     font-size: 18px;
@@ -264,23 +264,23 @@ th, td {
   }
 
 /*1*/
-.schoolbestuur{
+.schoolboard{
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
     padding-top: 20px;
 }
-.schoolbestuur h3{
+.schoolboard h3{
     padding-bottom: 10px;
     font-family: 'Inter' , 'sans-serif';
     font-weight: lighter;
 }
 
-.schoolbestuur div{
+.schoolboard div{
     width: 50%;
 }
 
-.schoolbestuurtekst {
+.schoolboard-text {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
@@ -289,7 +289,7 @@ th, td {
     font-family: 'Inter', 'sans-serif';
   }
 
-  table .een {
+  table .one {
     border-collapse: collapse;
     width: 5%;
     margin-top: 20px;
@@ -298,31 +298,31 @@ th, td {
 
 .end{
     background-image: url(/images/pattern2.svg);
-    background-size:100%;
+    background-size:110%;
 }
 /*2*/
-.schoolbestuur2{
+.schoolboard2{
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
     padding-top: 20px;
 }
-.schoolbestuur2 h3{
+.schoolboard2 h3{
     padding-bottom: 10px;
     font-family: 'Inter' , 'sans-serif';
     font-weight: lighter;
 }
 
-.schoolbestuur2 ul li{
+.schoolboard2 ul li{
     font-family: 'Inter' , 'sans-serif';
 
 }
-.schoolbestuur2 div{
+.schoolboard2 div{
     width: 50%;
     font-weight: lighter;
 }
 
-table.twee{
+table.two{
     padding-right: 100px;
 }
 
@@ -354,7 +354,7 @@ summary {
   details[open] div{
     padding: .5em 1em;
   }
-.schoolbestuurtekst2 {
+.schoolboard-text2 {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -363,8 +363,8 @@ summary {
     font-weight: bold;
   }  
   
-  /*ouderraad*/
-  .schoolbestuurtekst-ouderraad {
+  /*parent*/
+  .schoolboard-text-parent {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
@@ -374,7 +374,7 @@ summary {
     font-family: 'Inter', 'sans-serif';
   }
   /*schoolraad*/
-  .schoolbestuurtekst-schoolraad {
+  .schoolboard-text-school {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
@@ -384,7 +384,7 @@ summary {
     font-family: 'Inter', 'sans-serif';
   }
 /*vertrouw*/
-  .schoolbestuurtekst-vetrouw{
+  .schoolboard-text-trust{
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
@@ -393,7 +393,7 @@ summary {
   }
 
   /*vrijwilligers*/
-  .schoolbestuurtekst-vrijwilligers{
+  .schoolboard-text-volunteers{
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
@@ -402,15 +402,7 @@ summary {
     font-family: 'Inter', 'sans-serif';
   }
 
-  .schoolbestuurtekst-beroep{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    font-size: 16px;
-    padding-bottom: 30px;
-    font-family: 'Inter', 'sans-serif';
-  }
-  .schoolbestuurtekst-zorgteam{
+  .schoolboard-text-profession{
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
@@ -430,7 +422,7 @@ summary {
     margin: 0 auto;
     width: 85%;
 }
-.wit{
+.white{
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
@@ -439,7 +431,7 @@ summary {
     width: 85%;
     height: 250px;
 }
-.kader{
+.frame{
     font-family: 'Inter',sans-serif;
     position: absolute;
     background-color: rgba(31, 69, 145, 0.9);
@@ -452,13 +444,13 @@ summary {
     width: 280px;
     height: 290px;
 }
-.kader h1{
+.frame h1{
     margin-top: 25px;
     margin-left: 13px;
     margin-bottom: 18px;
     font-size: 20px;
 }
-.blauw{
+.blue{
     display: flex;
     flex-direction: row;
     background-color: rgba(31, 69, 145, 0.2);
@@ -474,18 +466,18 @@ summary {
     padding-top: 40px;
 }
 
-.txtBlauw{
+.txtBlue{
     color: #000;
     margin-right: 130px;
 }
-.txtBlauw h1{
+.txtBlue h1{
     font-size: 20px;
 }
-.txtBlauw p{
+.txtBlue p{
     font-size: 16px;
     margin-top: 20px;
 }
-.txtBlauw a{
+.txtBlue a{
     color: #000;
    text-decoration: none;
 }
