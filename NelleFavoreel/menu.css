@@ -96,7 +96,7 @@ a:hover {
 #menuToggle input:checked ~ span {
 	opacity: 1;
 	transform: rotate(45deg) translate(-2px, -1px);
-	background: ##1f4591;
+	background: #1f4591;
 }
 
 /*
@@ -157,8 +157,7 @@ a:hover {
 	transform: none;
 	opacity: 1;
 }
-
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
 	#menu {
 		transform: none;
 		opacity: 0;
@@ -166,7 +165,7 @@ a:hover {
 		transition: opacity 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
 	}
 }
-@media screen and (min-width: 480px) {
+@media (min-width: 480px) {
 	.navErik {
 		display: none;
 	}
@@ -174,5 +173,24 @@ a:hover {
 @media (max-width: 480px) {
 	.top {
 		display: none;
+	}
+	.grid h4 {
+		font-size: 13;
+	}
+
+	.image {
+		margin-left: 20px;
+		margin-top: 20px;
+		margin-right: 0;
+	}
+	.top {
+		display: none;
+	}
+	.grid h4 {
+		font-size: 13;
+	}
+	.svg {
+		width: 50px;
+		margin-top: 50px;
 	}
 }

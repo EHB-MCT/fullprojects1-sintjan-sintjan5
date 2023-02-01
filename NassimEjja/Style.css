@@ -386,4 +386,13 @@ h2 {
 	.txtB div {
 		width: 100%;
 	}
+	.insch2 {
+		text-align: center;
+	}
+	.insch {
+		text-align: center;
+	}
+	.title {
+		text-align: center;
+	}
 }

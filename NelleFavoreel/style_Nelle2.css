@@ -212,7 +212,6 @@ ul.dropdown li a:hover {
 	width: 100%;
 }
 /*nav*/
-
 /*footer*/
 .foot {
 	display: flex;
@@ -252,6 +251,12 @@ ul.dropdown li a:hover {
 	letter-spacing: 1px;
 	font-size: 28px;
 }
+.image {
+	width: 190px;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+}
 .kader p {
 	font-family: "Inter", sans-serif;
 }
@@ -262,6 +267,7 @@ ul.dropdown li a:hover {
 	width: 100%;
 	height: 220px;
 }
+
 .txtB {
 	font-family: "Inter", sans-serif;
 	display: flex;
@@ -348,6 +354,28 @@ ul.dropdown li a:hover {
 		padding: 0;
 	}
 	.head {
-		padding-top: 150px;
+		padding-top: 100px;
+	}
+
+	.top {
+		display: none;
+	}
+	.grid h4 {
+		font-size: 13;
+	}
+	.svg {
+		width: 50px;
+		margin-top: 50px;
+	}
+	.image {
+		margin-left: 20px;
+		margin-top: 20px;
+		margin-right: 0;
+	}
+	.image {
+		width: 190px;
+	}
+	.txtI p {
+		font-size: 20px;
 	}
 }
