@@ -495,25 +495,89 @@ video{
     width: 60%;
 }
 /*Footer*/
+/*Hamburger*/
 
-@media screen and (max-width: 480px) {
+/*Hamburger*/
+
+@media screen and (max-width: 768px) {
+    /*nav*/
     .txtI{
         display: none;
     }
     .box{
         display: none;
     }
-    /*hamburger menu*/
+    .image{
+        width: 50px;
+    }
     .top{
         box-shadow: none;
         background-color: #E4E7EC;
         position: relative;
     }
-    .image{
-        width: 50px;
+    /*hamburger menu*/
+
+    /*hamburger menu*/
+    .intro{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .jan{
+        width: 100%;
+    }
+    .jan p{
+        width: 100%;
+    }
+    .eerst{
+        padding: 50px 0px;
+    }
+    .main{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        width: 100%;
+    }
+    .main img{
+        width: 90%;
+    }
+    .pattern{
+        padding: 50px 0px;
+    }
+    .einde{
+        padding: 30px 0px;
+    }
+    .vid{
+        padding-top: 0px;
+        width: 100%;
+    }
+    .home{
+        height: 450px;
+    }
+    .school{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .btn{
+        margin-right: 0px;
+        padding: 20px;
+    }
+    .btn1{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 30px;
+        padding: 20px;
+    }
+    .txtS h1{
+        font-size: 60px;
+        width: 85%;
     }
     video{
-        width: 370px;
+        width: 70%;
+    }
+    .pattern{
+        display: flex;
+        justify-content: center;
     }
     .inschrijven{
         display: flex;
@@ -538,12 +602,6 @@ video{
         height: 150px;
         font-size: 40px;
     }
-    .wit{
-        display: none;
-    }
-    .blauw{
-        display: none;
-    }
     .last{
         display: flex;
         justify-content: center;
@@ -557,4 +615,49 @@ video{
     .home{
         margin-top: 0px;
     }
+    .vertline{
+        display: none;
+    }
+    .btn1::after{
+        display: none;
+    }
+    .btn::after{
+        display: none;
+    }
+    /*foot responsive*/
+    .kader{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        border-radius: 0px;
+        height: 500px;
+        margin-top: 0px;
+    }
+    .icons{
+        justify-content: center;
+    }
+    .icon{
+        width: 10%;
+    }
+    .icon img{
+        width: 100%;
+    }
+    .kader h1{
+        font-size: 60px;
+        margin-bottom: 25px;
+        margin-top: 0px;
+    }
+    .kader p{
+        font-size: 20px;
+    }
+    .foot{
+        justify-content: center;
+    }
+    .wit{
+        display: none;
+    }
+    .blauw{
+        display: none;
+    }
+    /*foot responsive*/
 }
