@@ -499,15 +499,21 @@ video{
 
 /*Hamburger*/
 
-@media screen and (max-width: 768px) {
-    body{
-        overflow-x: hidden;
-    }
+@media screen and (max-width: 480px) {
+    /*nav*/
     .txtI{
         display: none;
     }
     .box{
         display: none;
+    }
+    .image{
+        width: 50px;
+    }
+    .top{
+        box-shadow: none;
+        background-color: #E4E7EC;
+        position: relative;
     }
     /*hamburger menu*/
 
@@ -566,14 +572,6 @@ video{
         font-size: 60px;
         width: 85%;
     }
-    .top{
-        box-shadow: none;
-        background-color: #E4E7EC;
-        position: relative;
-    }
-    .image{
-        width: 50px;
-    }
     video{
         width: 70%;
     }
@@ -604,12 +602,6 @@ video{
         height: 150px;
         font-size: 40px;
     }
-    .wit{
-        display: none;
-    }
-    .blauw{
-        display: none;
-    }
     .last{
         display: flex;
         justify-content: center;
@@ -638,11 +630,8 @@ video{
         justify-content: center;
         width: 100%;
         border-radius: 0px;
-        height: 500px;
+        height: 400px;
         margin-top: 0px;
-    }
-    .kader h1{
-        margin-bottom: 25px;
     }
     .icons{
         justify-content: center;
@@ -654,7 +643,9 @@ video{
         width: 100%;
     }
     .kader h1{
-        font-size: 35px;
+        text-align: center;
+        font-size: 40px;
+        margin-bottom: 25px;
         margin-top: 0px;
     }
     .kader p{
@@ -663,8 +654,11 @@ video{
     .foot{
         justify-content: center;
     }
+    .wit{
+        display: none;
+    }
+    .blauw{
+        display: none;
+    }
     /*foot responsive*/
-}
-@media screen and (max-width: 780px){
-
 }

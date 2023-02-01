@@ -14,7 +14,7 @@
 		<div class="top">
 			<div class="nav">
 				<div class="image">
-					<a href="#"><img src="/images/logo_navy_blue.png" alt="logo_navy_blue" /></a>
+					<a href="/GloryMenga/home.html"><img src="/images/logo_navy_blue.png" alt="logo_navy_blue" /></a>
 					<div class="txtI">
 						<p>Sint-Jan Berchmanscollege</p>
 					</div>
@@ -74,7 +74,7 @@
 	  A fake / hidden checkbox is used as click reciever,
 	  so you can use the :checked selector on it.
 	  -->
-					<input type="checkbox" />
+					<input type="checkbox" onclick="myFunction()" />
 
 					<!--
 	  Some spans to act as a hamburger.
@@ -90,7 +90,7 @@
 	  Too bad the menu has to be inside of the button
 	  but hey, it's pure CSS magic.
 	  -->
-					<ul id="menu">
+					<ul id="menu" style="display: none">
 						<li><a>Over ons</a></li>
 						<li><a class="smally" href="/GloryMenga/Opvoedings.html">Opvoedingsproject</a></li>
 						<li><a class="smally" href="/NelleFavoreel/schoolvisie.html">Schoolvisie</a></li>
@@ -176,5 +176,61 @@
 				</div>
 			</div>
 		</div>
+		<!--Footer-->
+		<footer>
+			<div class="foot">
+				<div class="kader">
+					<h1>Sint-Jan Berchmanscollege</h1>
+					<div class="icons">
+						<div class="icon">
+							<img src="/images/call.png" alt="call" />
+						</div>
+						<p>02/5120370</p>
+					</div>
+					<div class="icons">
+						<div class="icon">
+							<img src="/images/location.png" alt="call" />
+						</div>
+						<p>Ursulinenstraat 4 1000 Bruxelles</p>
+					</div>
+					<div class="icons">
+						<div class="icon">
+							<img src="/images/mail.png" alt="call" />
+						</div>
+						<p>secretariaat@sint-jan-brussel.be</p>
+					</div>
+				</div>
+				<div class="wit"></div>
+			</div>
+			<div class="blauw">
+				<div class="txtB">
+					<div class="txtBlauw">
+						<h1>Belangrijke info</h1>
+						<a href="#"><p>Eerste schooldag</p></a>
+						<a href="#"><p>Kalender</p></a>
+						<a href="#"><p>Leertraject</p></a>
+					</div>
+					<div class="txtBlauw">
+						<h1>Veelgestelde vragen</h1>
+					</div>
+					<div class="txtBlauw">
+						<h1>Werken bij ons</h1>
+						<a href="#"><p>Word leerkracht</p></a>
+						<a href="#"><p>Alle Vacatures</p></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!--Footer-->
+		<script>
+			function myFunction() {
+				var x = document.getElementById("menu");
+				if (x.style.display === "block") {
+					x.style.display = "none";
+				} else {
+					x.style.display = "block";
+				}
+			}
+		</script>
 	</body>
 </html>

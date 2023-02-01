@@ -362,4 +362,10 @@ ul.dropdown li a:hover {
 	h3 {
 		font-size: 13px;
 	}
+	.head {
+		margin: 0;
+	}
+	.grid {
+		margin: 0;
+	}
 }
