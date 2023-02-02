@@ -373,9 +373,11 @@ video{
     transition: 0.3s;
 }
 .direction:hover{
+    color: white;
     background-image: url(/images/HStudierichtingen.jpg);
 }
 .register:hover{
+    color: white;
     background-image: url(/images/HInschrijven.jpg);
 }
 .menu ul li:hover::after{
