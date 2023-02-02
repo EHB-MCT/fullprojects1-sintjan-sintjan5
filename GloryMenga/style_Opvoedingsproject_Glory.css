@@ -221,7 +221,7 @@ ul.dropdown li a:hover{
 }
 .end{
     padding-bottom: 20px;
-    background-image: url(images/pattern2.svg);
+    background-image: url(/images/pattern2.svg);
 }
 .steps{
     margin: 50px auto;
@@ -291,7 +291,7 @@ ul.dropdown li a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(images/Bewegingen.jpg);
+    background-image: url(/images/Bewegingen.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
