@@ -1138,3 +1138,19 @@ img:hover
     margin-top: 1em;
   }
 
+  @media screen and (max-width: 780px){
+    .container-head
+    {
+        width: 100%;
+
+    }
+
+    .container
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+

@@ -680,6 +680,17 @@ video{
     /*foot responsive*/
 }
 @media screen and (max-width: 780px){
+    .container-head
+    {
+        width: 100%;
+
+    }
+
+    .container
+    {
+        display: flex;
+        flex-direction: column;
+    }
 
 }
 
@@ -1149,6 +1160,7 @@ img:hover
     font-family: 'SIMPLIFICA';
     margin-top: 1em;
   }
+
 
 
 
