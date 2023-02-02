@@ -226,14 +226,13 @@ ul.dropdown li a:hover {
 	padding-top: 120px;
 }
 
-.title {
+h1.title {
 	position: relative;
 	line-height: 70px;
 	color: #000;
 	font-family: "SIMPLIFICA";
 	font-size: 60px;
 	font-weight: 100;
-	margin-top: 40px;
 }
 
 h2 {
@@ -387,6 +386,154 @@ h2 {
 		width: 100%;
 	}
 	.insch2 {
+		text-align: left;
+	}
+	.insch {
+		text-align: left;
+	}
+	.title {
+		text-align: left;
+	}
+	/*foot responsive*/
+	.kader {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		border-radius: 0px;
+		height: 500px;
+		margin-top: 0px;
+	}
+	.icons {
+		justify-content: center;
+	}
+	.icon {
+		width: 10%;
+	}
+	.icon img {
+		width: 100%;
+	}
+	.kader h1 {
+		font-size: 60px;
+		margin-bottom: 25px;
+		margin-top: 0px;
+	}
+	.kader p {
+		font-size: 20px;
+	}
+	.foot {
+		justify-content: center;
+	}
+	.wit {
+		display: none;
+	}
+	.blauw {
+		display: none;
+	}
+	/*foot responsive*/
+}
+
+.frame {
+	position: absolute;
+	background-color: rgba(31, 69, 145, 0.9);
+	color: white;
+	display: flex;
+	flex-direction: column;
+	opacity: 80%;
+	border-radius: 15px;
+	margin-top: 90px;
+	width: 280px;
+	height: 290px;
+}
+.frame h1 {
+	font-family: "SIMPLIFICA";
+	display: flex;
+	justify-content: center;
+	margin-top: 25px;
+	margin-bottom: 18px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	font-size: 28px;
+}
+.frame p {
+	font-family: "Inter", sans-serif;
+}
+.blue {
+	display: flex;
+	flex-direction: row;
+	background-color: rgba(31, 69, 145, 0.2);
+	width: 100%;
+	height: 220px;
+}
+.txtB {
+	font-family: "Inter", sans-serif;
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+	width: 80%;
+	padding-top: 40px;
+}
+
+.txtblue {
+	color: #000;
+	margin-right: 130px;
+}
+.txtblue h1 {
+	font-family: "SIMPLIFICA";
+	letter-spacing: 1px;
+	font-size: 28px;
+}
+.txtblue p {
+	font-size: 16px;
+	margin-top: 20px;
+}
+.txtblue a {
+	color: #000;
+	text-decoration: none;
+}
+.txtblue a:hover {
+	color: #1f4591;
+	font-weight: 600;
+	text-decoration: none;
+}
+.icons {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 15px;
+	margin-left: 40px;
+}
+.icon {
+	width: 14%;
+}
+.icon img {
+	filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(24deg)
+		brightness(105%) contrast(113%);
+	width: 100%;
+}
+.icons p {
+	font-size: 14px;
+	margin-left: 13px;
+	line-height: 20px;
+	width: 60%;
+}
+/*Footer*/
+@media only screen and (max-width: 480px) {
+	a {
+		/* tablet & desktop version */
+		display: inline-block;
+		margin-right: 20px;
+	}
+	h1.title {
+		/* tablet */
+		width: 100%;
+	}
+	.txtB {
+		flex-wrap: wrap;
+	}
+	.txtB div {
+		width: 100%;
+	}
+	.insch2 {
 		text-align: center;
 	}
 	.insch {
@@ -395,4 +542,62 @@ h2 {
 	.title {
 		text-align: center;
 	}
+	.registration-title {
+		text-align: center;
+	}
+	.registration-title-2 {
+		text-align: center;
+	}
+	.registration-class {
+		display: inline-block;
+	}
+	.registration-class-2 {
+		display: inline-block;
+	}
+
+	.registration div {
+		width: 100%;
+		margin-bottom: 50px;
+	}
+	.registration-class-2 div {
+		width: 100%;
+		margin-bottom: 50px;
+		flex-direction: column;
+	}
+	.frame {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		border-radius: 0px;
+		height: 400px;
+		margin-top: 0px;
+	}
+	.icons {
+		justify-content: center;
+	}
+	.icon {
+		width: 10%;
+	}
+	.icon img {
+		width: 100%;
+	}
+	.frame h1 {
+		text-align: center;
+		font-size: 40px;
+		margin-bottom: 25px;
+		margin-top: 0px;
+	}
+	.frame p {
+		font-size: 20px;
+	}
+	.foot {
+		justify-content: center;
+	}
+	.white {
+		display: none;
+	}
+	.blue {
+		display: none;
+	}
+	/*foot responsive*/
 }
