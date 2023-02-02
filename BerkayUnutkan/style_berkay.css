@@ -513,3 +513,51 @@ h3{
 }
 }
 /*foot responsive*/
+
+@media only screen and (max-width: 480px) {
+	a {
+		/* tablet & desktop version */
+		display: inline-block;
+		margin-right: 20px;
+	}
+	h1.title {
+		/* tablet */
+		width: 100%;
+	}
+	.txtB {
+		flex-wrap: wrap;
+	}
+	.txtB div {
+		width: 100%;
+	}
+
+	.title {
+		text-align: center;
+	}
+	.registration-title {
+		text-align: center;
+	}
+	.registration-class {
+		display: inline-block;
+	}
+	.registration-class-2 {
+		display: inline-block;
+	}
+  .registration-2 div {
+		width: 100%;
+		margin-bottom: 50px;
+	}
+	.registration div {
+		width: 100%;
+		margin-bottom: 50px;
+	}
+	.registration-class-2 div {
+		width: 100%;
+		margin-bottom: 50px;
+		flex-direction: column;
+	}
+  
+  .registration-title-2{
+    text-align: center;
+  }
+}
