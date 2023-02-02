@@ -226,14 +226,13 @@ ul.dropdown li a:hover {
 	padding-top: 120px;
 }
 
-.title {
+h1.title {
 	position: relative;
 	line-height: 70px;
 	color: #000;
 	font-family: "SIMPLIFICA";
 	font-size: 60px;
 	font-weight: 100;
-	margin-top: 40px;
 }
 
 h2 {
@@ -387,13 +386,13 @@ h2 {
 		width: 100%;
 	}
 	.insch2 {
-		text-align: center;
+		text-align: left;
 	}
 	.insch {
-		text-align: center;
+		text-align: left;
 	}
 	.title {
-		text-align: center;
+		text-align: left;
 	}
 	/*foot responsive*/
 	.kader {
@@ -601,6 +600,4 @@ h2 {
 		display: none;
 	}
 	/*foot responsive*/
-
-	
 }
