@@ -405,20 +405,8 @@ ul.dropdown li a:hover{
 /*Footer*/
 
 @media screen and (max-width: 480px) {
-    /*nav*/
-    .box{
-        display: none;
-    }
-    .txtI{
-        display: none;
-    }
-    .image{
-        width: 50px;
-    }
-    .top{
-        box-shadow: none;
-        background-color: #E4E7EC;
-        position: relative;
+    .first{
+        padding-top: 50px;
     }
     .vl{
         display: none;

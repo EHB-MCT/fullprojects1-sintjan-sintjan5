@@ -4,7 +4,8 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="Style.css" />
+		<link rel="stylesheet" href="/NelleFavoreel/menu.css" />
 		<title>Historiek</title>
 	</head>
 	<body>
@@ -55,7 +56,10 @@
 										>
 									</li>
 									<li>
-										<a href="/NordineElOuafrasi/index.html">Studierichtingen</a>
+										<a
+											href="/NordineElOuafrasi/Studierichtingen/studieaanbod.html"
+											>Studierichtingen</a
+										>
 									</li>
 									<li><a href="#">Privacybeleid</a></li>
 									<li>
@@ -85,7 +89,118 @@
 			</div>
 		</div>
 		<!--Nav-->
+		<div class="navErik">
+			<div class="image">
+				<a href="#"
+					><img src="/images/logo_navy_blue.png" alt="logo_navy_blue"
+				/></a>
+				<div class="txtI">
+					<p>Sint-Jan Berchmanscollege</p>
+				</div>
+			</div>
+			<!--    Made by Erik Terwan    -->
+			<!--   24th of November 2015   -->
+			<!--        MIT License        -->
+			<nav role="navigation">
+				<div id="menuToggle">
+					<!--
+	  A fake / hidden checkbox is used as click reciever,
+	  so you can use the :checked selector on it.
+	  -->
+					<input type="checkbox" onclick="myFunction()" />
 
+					<!--
+	  Some spans to act as a hamburger.
+	  
+	  They are acting like a real hamburger,
+	  not that McDonalds stuff.
+	  -->
+					<span></span>
+					<span></span>
+					<span></span>
+
+					<!--
+	  Too bad the menu has to be inside of the button
+	  but hey, it's pure CSS magic.
+	  -->
+					<ul id="menu" style="display: none">
+						<li><a href="/GloryMenga/home.html">Home</a></li>
+						<li><a>Over ons</a></li>
+						<li>
+							<a class="smally" href="/GloryMenga/Opvoedings.html"
+								>Opvoedingsproject</a
+							>
+						</li>
+						<li>
+							<a class="smally" href="/NelleFavoreel/schoolvisie.html"
+								>Schoolvisie</a
+							>
+						</li>
+						<li>
+							<a class="smally" href="/NassimEjja/History.html">Historiek</a>
+						</li>
+						<li>
+							<a class="smally" href="/NelleFavoreel/janBerchmans.html"
+								>Jan Berchmans</a
+							>
+						</li>
+						<li>
+							<a class="smally" href="/NelleFavoreel/motto.html">Motto</a>
+						</li>
+						<li>
+							<a class="smally" href="/NelleFavoreel/jaarthema.html"
+								>Jaarthema</a
+							>
+						</li>
+						<li><a>Organisatie</a></li>
+						<li>
+							<a class="smally" href="/BerkayUnutkan/inschrijvingen.html"
+								>Inschrijvingen</a
+							>
+						</li>
+						<li>
+							<a
+								class="smally"
+								href="/Schoolkosten detailprijs 2022-2023 SEC.pdf"
+								>Schoolkosten</a
+							>
+						</li>
+						<li>
+							<a
+								class="smally"
+								href="/NordineElOuafrasi/Studierichtingen/studierichtingen.html"
+								>Studierichtingen</a
+							>
+						</li>
+						<li>
+							<a class="smally" href="/Privacyverklaring.pdf">Privacybeleid</a>
+						</li>
+						<li>
+							<a class="smally" href="/BerkayUnutkan/wieiswie.html"
+								>Wie is wie?</a
+							>
+						</li>
+						<li>
+							<a class="smally" href="/schoolreglement2022-2023_def.pdf"
+								>Schoolreglement</a
+							>
+						</li>
+						<li>
+							<a class="smally" href="/BerkayUnutkan/vacaturesberkay.html"
+								>Vacatures</a
+							>
+						</li>
+						<li><a href="/NelleFavoreel/contact.html">Contact</a></li>
+						<div class="svg">
+							<a href="https://sint-jan-brussel.smartschool.be/login"
+								><img src="/images/smartschool_app_icon.svg" alt="smartschool"
+							/></a>
+						</div>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<!--Hamburger-->
 		<div class="first-main">
 			<h1 class="title">Historiek</h1>
 		</div>
@@ -372,9 +487,10 @@
 			</div>
 		</div>
 
+		<!--Footer-->
 		<footer>
 			<div class="foot">
-				<div class="kader">
+				<div class="frame">
 					<h1>Sint-Jan Berchmanscollege</h1>
 					<div class="icons">
 						<div class="icon">
@@ -386,7 +502,7 @@
 						<div class="icon">
 							<img src="/images/location.png" alt="call" />
 						</div>
-						<p>Rue des Ursulines 4 1000 Bruxelles</p>
+						<p>Ursulinenstraat 4 1000 Bruxelles</p>
 					</div>
 					<div class="icons">
 						<div class="icon">
@@ -395,26 +511,46 @@
 						<p>secretariaat@sint-jan-brussel.be</p>
 					</div>
 				</div>
-				<div class="wit"></div>
+				<div class="white"></div>
 			</div>
-			<div class="blauw">
+			<div class="blue">
 				<div class="txtB">
-					<div class="txtBlauw">
+					<div class="txtBlue">
 						<h1>Belangrijke info</h1>
-						<a href="#"><p>Eerste schooldag</p></a>
-						<a href="#"><p>Kalender</p></a>
-						<a href="#"><p>Leertraject</p></a>
+						<a href="/Privacyverklaring.pdf" target="_blank"
+							><p>Privacybeleid</p></a
+						>
+						<a href="/schoolreglement2022-2023_def.pdf" target="_blank"
+							><p>Schoolregelment</p></a
+						>
+						<a
+							href="/Schoolkosten detailprijs 2022-2023 SEC.pdf"
+							target="_blank"
+							><p>Schoolkosten</p></a
+						>
 					</div>
-					<div class="txtBlauw">
-						<h1>Veelgestelde vragen</h1>
-					</div>
-					<div class="txtBlauw">
-						<h1>Werken bij ons</h1>
-						<a href="#"><p>Word leerkracht</p></a>
-						<a href="#"><p>Alle Vacatures</p></a>
+					<div class="txtBlue">
+						<h1>Onze school</h1>
+						<a href="/BerkayUnutkan/inschrijvingen.html"
+							><p>inschrijvingen</p></a
+						>
+						<a href="/BerkayUnutkan/vacaturesberkay.html"
+							><p>Alle Vacatures</p></a
+						>
 					</div>
 				</div>
 			</div>
 		</footer>
+		<!--Footer-->
+		<script>
+			function myFunction() {
+				var x = document.getElementById("menu");
+				if (x.style.display === "block") {
+					x.style.display = "none";
+				} else {
+					x.style.display = "block";
+				}
+			}
+		</script>
 	</body>
 </html>
