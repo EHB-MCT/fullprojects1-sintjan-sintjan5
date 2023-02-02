@@ -21,18 +21,20 @@ body {
 	width: 100%;
 	position: fixed;
 	box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	z-index: 10;
 }
 .nav {
-	padding: 20px 0px;
+	padding: 8px 0;
 	margin: 0 auto;
 	width: 85%;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	flex-direction: row;
+	z-index: 10;
 }
 .image {
-	width: 190px;
+	width: 180px;
 	display: flex;
 	align-items: center;
 	flex-direction: row;
@@ -45,7 +47,7 @@ body {
 .image img {
 	width: 100%;
 }
-.rechts {
+.right {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -140,7 +142,7 @@ button[type="submit"]:hover {
 ul.dropdown {
 	background-color: white;
 	border-radius: 15px;
-	z-index: 50;
+	z-index: 10;
 }
 ul li ul.dropdown li {
 	padding: 10px;
@@ -428,6 +430,7 @@ p {
 		grid-column: 2/13;
 		grid-row: 1/2;
 		margin-right: 0%;
+		margin-top: 50px;
 	}
 	.schoolvisieFoto {
 		grid-column: 2/12;
@@ -487,4 +490,51 @@ p {
 	.totSlot {
 		grid-column: 2/13;
 	}
+	.grid {
+		padding-top: 0;
+		margin-top: 100px;
+	}
+	p {
+		font-size: 13px;
+	}
+	.txtI p {
+		font-size: 20px;
+	}
+	/*foot responsive*/
+	.kader {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		border-radius: 0px;
+		height: 400px;
+		margin-top: 0px;
+	}
+	.icons {
+		justify-content: center;
+	}
+	.icon {
+		width: 10%;
+	}
+	.icon img {
+		width: 100%;
+	}
+	.kader h1 {
+		text-align: center;
+		font-size: 40px;
+		margin-bottom: 25px;
+		margin-top: 0px;
+	}
+	.kader p {
+		font-size: 15px;
+	}
+	.foot {
+		justify-content: center;
+	}
+	.wit {
+		display: none;
+	}
+	.blauw {
+		display: none;
+	}
+	/*foot responsive*/
 }
