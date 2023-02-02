@@ -503,21 +503,7 @@ footer{
 /*Hamburger*/
 
 @media screen and (max-width: 480px) {
-    /*nav*/
-    .txtI{
-        display: none;
-    }
-    .box{
-        display: none;
-    }
-    .image{
-        width: 50px;
-    }
-    .top{
-        box-shadow: none;
-        background-color: #E4E7EC;
-        position: relative;
-    }
+    
     /*hamburger menu*/
 
     /*hamburger menu*/
@@ -554,6 +540,7 @@ footer{
         width: 100%;
     }
     .home{
+        padding-top: 100px;
         height: 450px;
     }
     .school{

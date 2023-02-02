@@ -154,6 +154,7 @@ a:hover {
 	padding-bottom: 3%;
 	width: 100%;
 	position: fixed;
+	z-index: 999;
 }
 
 /*
