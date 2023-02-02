@@ -403,16 +403,16 @@ video{
     margin: 0 auto;
     width: 85%;
 }
-.wit{
+.white{
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
-    background-color: #E4E7EC;
+    background-color: #CFD8E5;
     margin: 0 auto;
     width: 85%;
     height: 250px;
 }
-.kader{
+.frame{
     position: absolute;
     background-color: rgba(31, 69, 145, 0.9);
     color: white;
@@ -424,7 +424,7 @@ video{
     width: 280px;
     height: 290px;
 }
-.kader h1{
+.frame h1{
     font-family: 'SIMPLIFICA';
     display: flex;
     justify-content: center;
@@ -435,10 +435,10 @@ video{
     letter-spacing: 1px;
     font-size: 28px;
 }
-.kader p{
+.frame p{
     font-family: 'Inter',sans-serif;
 }
-.blauw{
+.blue{
     display: flex;
     flex-direction: row;
     background-color: rgba(31, 69, 145, 0.2);
@@ -454,24 +454,24 @@ video{
     padding-top: 40px;
 }
 
-.txtBlauw{
+.txtBlue{
     color: #000;
-    margin-right: 40px;
+    margin-right: 130px;
 }
-.txtBlauw h1{
+.txtBlue h1{
     font-family: 'SIMPLIFICA';
     letter-spacing: 1px;
     font-size: 28px;
 }
-.txtBlauw p{
+.txtBlue p{
     font-size: 16px;
     margin-top: 20px;
 }
-.txtBlauw a{
+.txtBlue a{
     color: #000;
     text-decoration: none;
 }
-.txtBlauw a:hover{
+.txtBlue a:hover{
     color: #1F4591;
     font-weight: 600;
     text-decoration: none;
@@ -495,6 +495,9 @@ video{
     margin-left: 13px;
     line-height: 20px;
     width: 60%;
+}
+footer{
+    background-color: #CFD8E5;
 }
 /*Footer*/
 /*Hamburger*/
@@ -693,18 +696,21 @@ body{
     background-color: rgba(228, 231, 236, 0.8);
     width: 100%;
     position: fixed;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    z-index: 10;
 }
 .nav{
-    padding: 20px 0px;
+    padding: 8px 0;
     margin: 0 auto;
     width: 85%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
+    z-index: 10;
 }
 .image{
-    width: 190px;
+    width: 180px;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -726,6 +732,7 @@ form{
     display: flex;
     align-items: center;
 }
+
 /*Searchbox*/
 input[type="text"]
 {
@@ -739,11 +746,12 @@ input[type="text"]
     padding: 0 20px;
     border-radius: 15px 0 0 15px;
 }
-input[type="submit"]
+button[type="submit"]
 {
     font-family: 'SIMPLIFICA';
     font-size: 18px;
     border-radius: 0 15px 15px 0;
+    letter-spacing: 1px;
     border: none;
     outline: none;
     width: 30%;
@@ -751,6 +759,11 @@ input[type="submit"]
     cursor: pointer;
     color: white;
     background: #1F4591;
+    transition: 0.3s;
+}
+button[type="submit"]:hover
+{
+    background: #102649;
 }
 /*Searchbox*/
 
@@ -776,7 +789,7 @@ input[type="submit"]
 .menu ul li::after{
     content: '';
     width: 0%;
-    height: 2px;
+    height: 1px;
     background: #1F4591;
     display: block;
     margin: auto;
@@ -844,6 +857,7 @@ ul.dropdown li a:hover{
 .svg img{
     width: 100%;
 }
+/*nav*/
 
 /*container*/
 .container{
