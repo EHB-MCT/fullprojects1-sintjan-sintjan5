@@ -212,7 +212,7 @@ ul.dropdown li a:hover{
 .imageLayer{
     display: flex;
     justify-content: flex-end;
-    width: 100%;
+    width: 80%;
     
     
 }
@@ -345,3 +345,30 @@ ul.dropdown li a:hover{
     width: 60%;
 }
 /*Footer*/
+
+/*Footer*/
+@media screen and (max-width: 480px) {
+    .line{
+        display: none;
+    }
+    .layer{
+        flex-direction: column;
+        padding: 0px 0px 0px 0px;
+    }
+    .layer{
+        width: 100%;
+    }
+    .layer p{
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    .layer h1{
+        margin-bottom: 0px;
+    }
+    .imageLayer{
+        width: 0%;
+    }
+    .imageLayer img{
+        width: 0%;
+    }
+}

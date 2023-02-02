@@ -500,3 +500,49 @@ summary {
     line-height: 20px;
     width: 60%;
 }
+
+@media only screen and (max-width: 480px) {
+	a {
+		/* tablet & desktop version */
+		display: inline-block;
+		margin-right: 20px;
+	}
+	.title {
+		/* tablet */
+		width: 100%;
+        text-align: center;
+	}
+	.subtitle {
+		text-align: center;
+	}
+	.schoolboard {
+		width: 100%;
+		margin-bottom: 50px;
+		flex-direction: column;
+	}
+	.schoolboard-text{
+        display: none;
+    }
+    table.special {
+        border-collapse: unset;
+        width: 15%;
+        margin-top: 20px;
+        
+      }
+    .schoolboard-text2{
+        display: none;
+    }
+    .schoolboard-text-parent{
+        display: none;
+    }
+    .schoolboard-text-school{
+        display: none;
+    }
+    .schoolboard-text-profession{
+        display: flex;
+    }
+    .schoolboard-text-trust{
+        display: none;
+    }
+    
+}
