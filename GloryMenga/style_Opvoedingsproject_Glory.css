@@ -421,6 +421,7 @@ ul.dropdown li a:hover{
     .ED p{
         width: 100%;
         margin-bottom: 40px;
+        font-size: 13px;
     }
     .ED h1{
         margin-bottom: 40px;
@@ -441,12 +442,24 @@ ul.dropdown li a:hover{
         text-align: center;
     }
     .step{
-        margin-top: 110px;
+        margin-top: 70px;
         width: 100%;
     }
     .step2{
-        margin-top: 80px;
+        margin-top: 20px;
         width: 100%;
+    }
+    .step p{
+        font-size: 13px;
+    }
+    .step2 p{
+        font-size: 13px;
+    }
+    .step h1{
+        font-size: 30px;
+    }
+    .step2 h1{
+        font-size: 30px;
     }
     .end{
         padding-bottom: 110px ;
