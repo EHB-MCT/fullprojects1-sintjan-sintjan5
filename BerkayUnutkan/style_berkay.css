@@ -374,6 +374,7 @@ h3{
 }
 
 /*footer*/
+
 .foot{
   display: flex;
   justify-content: flex-end;
@@ -472,48 +473,53 @@ h3{
   line-height: 20px;
   width: 60%;
 }
-/*Footer*/
 
-@media screen and (max-width: 480px) {
-  .navErik{
-    padding-bottom: 30px;
+
+
+
+
+
+/*Footer*/
+@media only screen and (max-width: 480px) {
+  .txtI p{
+    font-size: 106px;
   }
-  .vl{
+a {
+  /* tablet & desktop version */
+  display: inline-block;
+  margin-right: 20px;
+}
+h1.title {
+  text-align: left;
+}
+h2{
+  text-align: left;
+  font-size: 13px;
+}
+.subtitle {
+  text-align: left;
+}
+.schoolboard {
+  width: 100%;
+  margin-bottom: 50px;
+  flex-direction: column;
+}
+.schoolboard-text{
       display: none;
   }
-  .Opvoeding{
-      flex-direction: column;
-      padding: 70px 0px 100px 0px;
+  table.special {
+      border-collapse: unset;
+      margin-top: 20px;
+      flex-wrap: wrap;
   }
-  .OP{
-      width: 100%;
+  .txtI p{
+      font-size: 15px;
   }
-  .OP p{
-      width: 100%;
-      margin-bottom: 40px;
+  p{
+      font-size: 13px;
   }
-  .OP h1{
-      margin-bottom: 40px;
-  }
-  .fotoOP{
-      display: flex;
-      justify-content: center;
-      width: 100%;
-  }
-  .fotoOP img{
-      width: 90%;
-  }
-  .bewegingen{
-      font-size: 60px;
-      text-align: center;
-      height: 400px;
-  }
-  .end{
-      padding-bottom: 100px ;
-  }
-  
-  /*foot responsive*/
-  .kader{
+ 
+   .frame{
       display: flex;
       justify-content: center;
       width: 100%;
@@ -538,25 +544,24 @@ h3{
   .icons p{
       margin-left: 0px;
   }
-  .kader h1{
+  .frame h1{
       text-align: center;
       font-size: 40px;
       margin-bottom: 5px;
       margin-top: 0px;
   }
-  .kader p{
-      font-size: 15px;
+  .frame p{
+      font-size: 13px;
   }
   .foot{
       justify-content: center;
   }
-  .wit{
+  .white{
       display: none;
   }
-  .blauw{
+  .blue{
       display: none;
   }
-  /*foot responsive*/
   a {
 		/* tablet & desktop version */
 		display: inline-block;
@@ -609,4 +614,3 @@ h3{
     width: 85%;
   }
 }
-
