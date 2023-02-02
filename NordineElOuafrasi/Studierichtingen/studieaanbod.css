@@ -496,12 +496,16 @@ video{
     line-height: 20px;
     width: 60%;
 }
+
+
+
+
 /*Footer*/
 /*Hamburger*/
 
 /*Hamburger*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 780px) {
     body{
         overflow-x: hidden;
     }
@@ -667,7 +671,29 @@ video{
     }
     /*foot responsive*/
 }
-@media screen and (max-width: 780px){
+
+@media screen and (max-width: 480px){
+
+    body
+    {
+     overflow-x: hidden;
+ 
+    }
+ 
+    .container-head .head-title
+    {
+     width: 100%;
+    }
+ 
+    body .flex-dir
+ {
+     display: flex;
+     flex-direction: column;
+ }
+
+
+    
+
 
 }
 
@@ -695,10 +721,15 @@ head-title
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
-    
-    
 }
+
+
+.flex-dir
+{
+    display: flex;
+    flex-direction: row;
+}
+
 
 .box-main
 {
@@ -757,4 +788,5 @@ img:hover
     background-size: 100%;
     padding: 100px 0px;
 
-  }
+}
+
