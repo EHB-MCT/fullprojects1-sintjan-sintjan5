@@ -126,7 +126,6 @@ a:hover {
 	padding: 50px;
 	padding-top: 125px;
 	right: -100px;
-
 	background-color: #cfd8e5;
 	border-bottom-right-radius: 30px;
 	border-bottom-left-radius: 30px;
@@ -154,6 +153,7 @@ a:hover {
 	padding-bottom: 3%;
 	width: 100%;
 	position: fixed;
+	z-index: 999;
 }
 
 /*
@@ -167,7 +167,6 @@ a:hover {
 	#menu {
 		transform: none;
 		opacity: 0;
-
 		transition: opacity 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
 	}
 }
