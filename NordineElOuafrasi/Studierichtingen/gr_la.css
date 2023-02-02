@@ -403,16 +403,16 @@ video{
     margin: 0 auto;
     width: 85%;
 }
-.wit{
+.white{
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
-    background-color: #E4E7EC;
+    background-color: #CFD8E5;
     margin: 0 auto;
     width: 85%;
     height: 250px;
 }
-.kader{
+.frame{
     position: absolute;
     background-color: rgba(31, 69, 145, 0.9);
     color: white;
@@ -424,7 +424,7 @@ video{
     width: 280px;
     height: 290px;
 }
-.kader h1{
+.frame h1{
     font-family: 'SIMPLIFICA';
     display: flex;
     justify-content: center;
@@ -435,10 +435,10 @@ video{
     letter-spacing: 1px;
     font-size: 28px;
 }
-.kader p{
+.frame p{
     font-family: 'Inter',sans-serif;
 }
-.blauw{
+.blue{
     display: flex;
     flex-direction: row;
     background-color: rgba(31, 69, 145, 0.2);
@@ -454,24 +454,24 @@ video{
     padding-top: 40px;
 }
 
-.txtBlauw{
+.txtBlue{
     color: #000;
-    margin-right: 40px;
+    margin-right: 130px;
 }
-.txtBlauw h1{
+.txtBlue h1{
     font-family: 'SIMPLIFICA';
     letter-spacing: 1px;
     font-size: 28px;
 }
-.txtBlauw p{
+.txtBlue p{
     font-size: 16px;
     margin-top: 20px;
 }
-.txtBlauw a{
+.txtBlue a{
     color: #000;
     text-decoration: none;
 }
-.txtBlauw a:hover{
+.txtBlue a:hover{
     color: #1F4591;
     font-weight: 600;
     text-decoration: none;
@@ -495,6 +495,9 @@ video{
     margin-left: 13px;
     line-height: 20px;
     width: 60%;
+}
+footer{
+    background-color: #CFD8E5;
 }
 /*Footer*/
 /*Hamburger*/
@@ -804,25 +807,7 @@ video{
       text-align: center;
     }
   }
-
-  @media screen and (max-width: 480px){
-
-    body
-    {
-     overflow-x: hidden;
  
-    }
- 
-    .container-head .head-title
-    {
-     width: 100%;
-    }
- 
-    body .flex-dir
- {
-     display: flex;
-     flex-direction: column;
- }
 
 
 
@@ -1119,17 +1104,16 @@ th, td {
     margin: 0 auto;
     width: 85%;
 }
-.wit{
+.white{
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
-    background-color: #E4E7EC;
+    background-color: #CFD8E5;
     margin: 0 auto;
     width: 85%;
     height: 250px;
 }
-.kader{
-    font-family: 'Inter',sans-serif;
+.frame{
     position: absolute;
     background-color: rgba(31, 69, 145, 0.9);
     color: white;
@@ -1137,17 +1121,25 @@ th, td {
     flex-direction: column;
     opacity: 80%;
     border-radius: 15px;
-    margin-top: 100px;
+    margin-top: 90px;
     width: 280px;
     height: 290px;
 }
-.kader h1{
+.frame h1{
+    font-family: 'SIMPLIFICA';
+    display: flex;
+    justify-content: center;
     margin-top: 25px;
     margin-left: 13px;
     margin-bottom: 18px;
-    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 28px;
 }
-.blauw{
+.frame p{
+    font-family: 'Inter',sans-serif;
+}
+.blue{
     display: flex;
     flex-direction: row;
     background-color: rgba(31, 69, 145, 0.2);
@@ -1163,20 +1155,27 @@ th, td {
     padding-top: 40px;
 }
 
-.txtBlauw{
+.txtBlue{
     color: #000;
     margin-right: 130px;
 }
-.txtBlauw h1{
-    font-size: 20px;
+.txtBlue h1{
+    font-family: 'SIMPLIFICA';
+    letter-spacing: 1px;
+    font-size: 28px;
 }
-.txtBlauw p{
+.txtBlue p{
     font-size: 16px;
     margin-top: 20px;
 }
-.txtBlauw a{
+.txtBlue a{
     color: #000;
-   text-decoration: none;
+    text-decoration: none;
+}
+.txtBlue a:hover{
+    color: #1F4591;
+    font-weight: 600;
+    text-decoration: none;
 }
 .icons{
     display: flex;
@@ -1189,6 +1188,7 @@ th, td {
     width: 14%;
 }
 .icon img{
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(24deg) brightness(105%) contrast(113%);
     width: 100%;
 }
 .icons p{
@@ -1197,7 +1197,10 @@ th, td {
     line-height: 20px;
     width: 60%;
 }
-
+footer{
+    background-color: #CFD8E5;
+}
+/*Footer*/
 
 .sub-title
 {
