@@ -665,11 +665,15 @@ video{
     .foot{
         justify-content: center;
     }
+
+    .flex-dir 
+    {
+        display: flex;
+        flex-direction: column
+    }
     /*foot responsive*/
 }
-@media screen and (max-width: 780px){
 
-}
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
