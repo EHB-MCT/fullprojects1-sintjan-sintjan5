@@ -808,7 +808,7 @@ footer{
     }
   }
 
-  @media screen and (max-width: 480px){
+  /*@media screen and (max-width: 480px){
 
     body
     {
@@ -825,7 +825,7 @@ footer{
  {
      display: flex;
      flex-direction: column;
- }
+ }*/
 
 
 
@@ -851,18 +851,21 @@ body{
     background-color: rgba(228, 231, 236, 0.8);
     width: 100%;
     position: fixed;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    z-index: 10;
 }
 .nav{
-    padding: 20px 0px;
+    padding: 8px 0;
     margin: 0 auto;
     width: 85%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
+    z-index: 10;
 }
 .image{
-    width: 190px;
+    width: 180px;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -884,6 +887,7 @@ form{
     display: flex;
     align-items: center;
 }
+
 /*Searchbox*/
 input[type="text"]
 {
@@ -897,11 +901,12 @@ input[type="text"]
     padding: 0 20px;
     border-radius: 15px 0 0 15px;
 }
-input[type="submit"]
+button[type="submit"]
 {
     font-family: 'SIMPLIFICA';
     font-size: 18px;
     border-radius: 0 15px 15px 0;
+    letter-spacing: 1px;
     border: none;
     outline: none;
     width: 30%;
@@ -909,6 +914,11 @@ input[type="submit"]
     cursor: pointer;
     color: white;
     background: #1F4591;
+    transition: 0.3s;
+}
+button[type="submit"]:hover
+{
+    background: #102649;
 }
 /*Searchbox*/
 
@@ -934,7 +944,7 @@ input[type="submit"]
 .menu ul li::after{
     content: '';
     width: 0%;
-    height: 2px;
+    height: 1px;
     background: #1F4591;
     display: block;
     margin: auto;
@@ -1002,117 +1012,28 @@ ul.dropdown li a:hover{
 .svg img{
     width: 100%;
 }
-
-/*container*/
-.container{
-    width: 85%;
-    margin: 0 auto;
-    padding-top: 40px;
-    
-    
-}
-
-.container-text{
-    width: 85%;
-    margin: 0 auto;
-    padding-top: 40px;
-}
-
-.simple-text
-{
-    padding: 10px;
-}
-
-.container-text-weti{
-    width: 85%;
-    margin: 0 auto;
-    padding-top: 0px;
-}
-
-.container-text-ict{
-    width: 85%;
-    margin: 0 auto;
-    padding-top: 40px;
-}
-
-.container-text-la{
-    width: 85%;
-    margin: 0 auto;
-    padding-top: 10px;
-}
-
-.container-text-ne-wis{
-    width: 85%;
-    margin: 0 auto;
-    padding-top: 40px;
-}
-
-.container-text-proj-woord-taal
-{
-    width: 85%;
-    margin: 0 auto;
-    padding-top: 40px;
-}
-
-.container-text-stem-ws
-{
-    width: 85%;
-    margin: 0 auto;
-    padding-top: 10px;
-}
-
-.container-text-gr-la
-{
-    width: 85%;
-    margin: 0 auto;
-    padding-top: 30px;
-}
-
-.container-head .sub-title
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    width: 100%;
-    background-image: url(/images/inschrijving.png);
-    overflow: hidden;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 300px;
-    font-size: 60px;
-    font-weight: 300;
-    color: #fff;
-    font-family: 'SIMPLIFICA';
-    margin-top: 50px;
-}
+/*nav*/
 
 
-/*tabellen*/
+/* tabellen*/
+
+/*schema*/
 th, td {
-    text-align: left;
-    padding: 10px;
-    font-family: 'Inter', sans-serif;
-    width: 25%;
-    
-  }
+  text-align: left;
+  padding: 10px;
+  font-family: 'Inter', sans-serif;
   
-  tr:nth-child(even){background-color: #f2f2f2;
 }
-  
+
+tr:nth-child(even){background-color: #f2f2f2;
+}
+
 th {
-    background-color: #1F4591;
-    border-radius: 5px;
-    color: white;
+  background-color: #1F4591;
+  border-radius: 5px;
+  color: white;
 
-  }
-
-  .list-of-bullets
-  {
-    margin: 1.5em;
-  }
-
-
+}
 
 
   /*footer*/
@@ -1206,6 +1127,3 @@ th {
 {
     margin-top: 30px;
 }
-
-
-
